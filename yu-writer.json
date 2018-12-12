@@ -12,12 +12,6 @@
             "hash": ""
         }
     },
-    "shortcuts": [
-        [
-            "Yu Writer\\Yu Writer.exe",
-            "Yu Writer"
-        ]
-    ],
     "extract_dir": "Yu Writer",
     "bin": "\\Yu Writer\\Yu Writer.exe",
     "checkver": {
