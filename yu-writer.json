@@ -13,7 +13,8 @@
         }
     },
     "shortcuts": "Yu Writer",
-    "bin": "/Yu Writer/Yu Writer.exe",
+    "extract_dir": "Yu Writer",
+    "bin": "\\Yu Writer\\Yu Writer.exe",
     "checkver": {
         "url": "https://github.com/ivarptr/yu-writer.site/releases/",
         "re": "yu-writer-beta-([\\d.]+)"
