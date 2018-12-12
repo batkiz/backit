@@ -1,0 +1,14 @@
+{
+    "homepage": "https://cjkis.me/capslock+",
+    "version": "2.7.0",
+    "license": "",
+    "url": "https://cjkis.me/assets/hexo/Capslock+_v2.7.0.1.exe",
+    "hash": "9481765b53234392ceeb79ebd7536d686a5630e11cf4f8db8f9fabae02bafa2d",
+    "shortcuts": "Capslock+",
+    "bin": "Capslock+_v2.7.0.1.exe",
+    "checkver": {
+        "url": "https://cjkis.me/capslock+/#版本历史",
+        "re": "v([\\d.]+) |"
+    },
+    "autoupdate": "https://cjkis.me/assets/hexo/Capslock+_v$version.exe"
+}
