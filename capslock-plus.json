@@ -2,12 +2,17 @@
     "homepage": "https://cjkis.me/capslock+",
     "version": "2.7.0.1",
     "license": "",
-    "url": "https://cjkis.me/assets/hexo/Capslock+_v2.7.0.1.exe",
+    "url": "https://cjkis.me/assets/hexo/Capslock+_v2.7.0.1.exe#/Capslock+.exe",
     "hash": "9481765b53234392ceeb79ebd7536d686a5630e11cf4f8db8f9fabae02bafa2d",
-    "shortcuts": "Capslock+",
-    "bin": "Capslock+_v2.7.0.1.exe",
-    "checkver": {
-        "url": "https://cjkis.me/capslock+/"
-    },
-    "autoupdate": "https://cjkis.me/assets/hexo/Capslock+_v$version.exe"
+    "shortcuts": [
+        [
+            "Capslock+.exe",
+            "Capslock+"
+        ]
+    ],
+    "bin": "Capslock+.exe",
+    "persist": [
+        "CapsLock+settings.ini",
+        "CapsLock+winsInfosRecorder.ini"
+    ]
 }
