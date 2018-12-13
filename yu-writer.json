@@ -13,10 +13,10 @@
         }
     },
     "extract_dir": "yu-writer",
-    "bin": "Yu Writer\\Yu Writer.exe",
+    "bin": "Yu Writer.exe",
     "shortcuts": [
         [
-            "Yu Writer\\Yu Writer.exe",
+            "Yu Writer.exe",
             "Yu Writer"
         ]
     ],
