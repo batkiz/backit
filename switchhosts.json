@@ -24,7 +24,7 @@
     ],
     "checkver": {
         "url": "https://github.com/oldj/SwitchHosts/releases",
-        "re": "SwitchHosts-win32-x64_v([\\d.]+)"
+        "re": "SwitchHosts-win32-x64_v([\\d.]+).zip"
     },
     "autoupdate": {
         "architecture": {
