@@ -12,11 +12,11 @@
             "hash": ""
         }
     },
-    "extract_dir": "yu-writer",
-    "bin": "yu-writer\\Yu Writer.exe",
+    "extract_dir": "Yu Writer",
+    "bin": "Yu Writer.exe",
     "shortcuts": [
         [
-            "yu-writer\\Yu Writer.exe",
+            "Yu Writer.exe",
             "Yu Writer"
         ]
     ],
