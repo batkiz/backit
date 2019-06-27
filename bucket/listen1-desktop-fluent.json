@@ -1,0 +1,45 @@
+{
+    "version": "2.3.1",
+    "homepage": "https://reycn.github.io/listen1_desktop_fluent/",
+    "description": "One for all free music in China",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/reycn/listen1_desktop_fluent/releases/download/2.3.1/Listen1_2.3.1_fluent_win64_unpacked.7z",
+            "hash": "38ec30d0e42a98dee5a0acf142df59db276fb1ca",
+            "installer": {
+                "script": "Expand-7zipArchive \"$dir\\app-64.7z\" \"$dir\""
+            }
+        },
+        "32bit": {
+            "url": "https://github.com/reycn/listen1_desktop_fluent/releases/download/2.3.1/Listen1_2.3.1_fluent_win32_unpacked.7z",
+            "hash": "9c226cebebd2dbdcf2497c1369a180bf52d95920",
+            "installer": {
+                "script": "Expand-7zipArchive \"$dir\\app-32.7z\" \"$dir\""
+            }
+        }
+    },
+    "extract_dir": "\\$PLUGINSDIR",
+    "pre_install": "Get-ChildItem \"$dir\" -Exclude 'app-64.7z', 'app-32.7z' | Remove-Item -Force -Recurse",
+    "post_install": "Remove-Item \"$dir\\app-64.7z\", \"$dir\\app-32.7z\" -Force -ErrorAction SilentlyContinue",
+    "bin": "Listen1.exe",
+    "shortcuts": [
+        [
+            "Listen1.exe",
+            "Listen1"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/reycn/listen1_desktop_fluent/"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/reycn/listen1_desktop_fluent/releases/download/v$version/Listen1_v$version_fluent_win64_unpacked.7z"
+            },
+            "32bit": {
+                "url": "https://github.com/reycn/listen1_desktop_fluent/releases/download/v$version/Listen1_v$version_fluent_win32_unpacked.7z"
+            }
+        }
+    }
+}
