@@ -6,22 +6,14 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/reycn/listen1_desktop_fluent/releases/download/2.3.1/Listen1_2.3.1_fluent_win64_unpacked.7z",
-            "hash": "f78117022969e86ba172df4a78c03283356b8d15043014ef43b1a3498e476b13",
-            "installer": {
-                "script": "Expand-7zipArchive \"$dir\\app-64.7z\" \"$dir\""
-            }
+            "hash": "f78117022969e86ba172df4a78c03283356b8d15043014ef43b1a3498e476b13"
         },
         "32bit": {
             "url": "https://github.com/reycn/listen1_desktop_fluent/releases/download/2.3.1/Listen1_2.3.1_fluent_win32_unpacked.7z",
-            "hash": "94212d4e3dbc04d9555cb56638d1a8cb75d68a71c55e56d2909b0b71c705f369",
-            "installer": {
-                "script": "Expand-7zipArchive \"$dir\\app-32.7z\" \"$dir\""
-            }
+            "hash": "94212d4e3dbc04d9555cb56638d1a8cb75d68a71c55e56d2909b0b71c705f369"
         }
     },
-    "extract_dir": "\\$PLUGINSDIR",
-    "pre_install": "Get-ChildItem \"$dir\" -Exclude 'app-64.7z', 'app-32.7z' | Remove-Item -Force -Recurse",
-    "post_install": "Remove-Item \"$dir\\app-64.7z\", \"$dir\\app-32.7z\" -Force -ErrorAction SilentlyContinue",
+    "extract_dir": "listen1",
     "bin": "Listen1.exe",
     "shortcuts": [
         [
