@@ -21,10 +21,7 @@
             "Yu Writer"
         ]
     ],
-    "checkver": {
-        "url": "https://github.com/ivarptr/yu-writer.site/releases/",
-        "re": "yu-writer-beta-([\\d.]+)"
-    },
+    "checkver": "github",
     "autoupdate": {
         "architecture": {
             "64bit": {
