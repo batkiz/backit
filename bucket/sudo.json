@@ -1,9 +1,0 @@
-{
-    "homepage": "https://github.com/batkiz/backit",
-    "description": "sudo ported from https://github.com/jtc42/psutils/blob/master/sudo.ps1",
-    "version": "0.2019.12.20",
-    "license": "MIT",
-    "url": "https://raw.githubusercontent.com/batkiz/backit/master/psutils/sudo.ps1",
-    "hash": "9304eafdf2538136403281981e1e7a9c3309df88794f20abd459c09ad50b52ae",
-    "bin": "sudo.ps1"
-}
