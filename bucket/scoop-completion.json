@@ -1,20 +1,29 @@
+
 {
-    "version": "0.1.1",
-    "description": "scoop-completion old version, with Set-PSReadlineKeyHandler. commit b02dccf",
+    "version": "0.2.2",
+    "description": "Scoop Auto Completion. Allow tab compliton for scoop commands.",
     "homepage": "https://github.com/Moeologist/scoop-completion",
     "license": {
         "identifier": "MIT",
         "url": "https://github.com/Moeologist/scoop-completion/blob/master/LICENSE"
     },
     "url": [
-        "https://raw.githubusercontent.com/Moeologist/scoop-completion/b02dccf4b68a43d73fe7e586b04373bd39b2a162/src/scoop-completion.psm1",
-        "https://raw.githubusercontent.com/Moeologist/scoop-completion/b02dccf4b68a43d73fe7e586b04373bd39b2a162/src/scoop-completion.psd1"
+        "https://raw.githubusercontent.com/Moeologist/scoop-completion/v0.2.2/src/scoop-completion.psm1",
+        "https://raw.githubusercontent.com/Moeologist/scoop-completion/v0.2.1/src/scoop-completion.psd1"
     ],
+    "post_install": "Add-Content \"$dir\\scoop-completion.psm1\" \"Set-PSReadlineKeyHandler -Key Tab -Function MenuComplete\"",
     "hash": [
-        "c0572ae13b4a20ac438619835bb56ab7d8811a806cc5206b1428882e35ce2a20",
-        "a188de3f9f427bc56603cac71f78e6262d91def243e7bd649b7c74efb88a0f76"
+        "515acbd12dc4f6fb65d9c0bce0af95d92f3a6fe024c98a002eb45f5a1a5ae950",
+        "4734b144349914e667f481967599be334844714ca1466f237e9922bfd202d202"
     ],
     "psmodule": {
         "name": "scoop-completion"
+    },
+    "checkver": {
+        "url": "https://raw.githubusercontent.com/Moeologist/scoop-completion/master/src/scoop-completion.psd1",
+        "regex": "ModuleVersion\\s+=\\s+'([\\d.]+)'"
+    },
+    "autoupdate": {
+        "url": "https://raw.githubusercontent.com/Moeologist/scoop-completion/v$version/src/scoop-completion.psm1"
     }
 }
