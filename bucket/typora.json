@@ -1,6 +1,5 @@
-
 {
-    "version": "0.9.9.83",
+    "version": "0.9.86",
     "description": "A decent markdown editor finally available on Windows",
     "homepage": "https://typora.io",
     "license": {
@@ -11,11 +10,11 @@
     "architecture": {
         "64bit": {
             "url": "https://typora.io/windows/typora-setup-x64.exe",
-            "hash": "8a194fd14992495e1b4066b9e2578782ef1191128964e389f4abbf49b32492ef"
+            "hash": "4346b67a1409044f39ee50004395a03eef3443718639e34393afc25a7162ac3d"
         },
         "32bit": {
             "url": "https://typora.io/windows/typora-setup-ia32.exe",
-            "hash": "947b9daaca1989a1650125a9edfd74a5ce571c5c272a019c7d133ef92dea52f7"
+            "hash": "6c4776ad0d3a7711ff33fc225db0fc3417a62692f229fccae3d881687b0272a4"
         }
     },
     "innosetup": true,
