@@ -1,0 +1,41 @@
+{
+    "version": "7.6",
+    "homepage": "https://racket-lang.org",
+    "license": "LGPL-3.0-or-later",
+    "description": "Racket on Chez Scheme",
+    "architecture": {
+        "64bit": {
+            "url": "https://download.racket-lang.org/releases/7.6/installers/racket-7.6-x86_64-win32-cs.exe#/dl.7z",
+            "hash": "sha1:6520f644f20feec94e46d3ac6189c3db5247a1d4"
+        }
+    },
+    "bin": [
+        "racket.exe",
+        "raco.exe"
+    ],
+    "shortcuts": [
+        [
+            "GRacket.exe",
+            "GRacket"
+        ],
+        [
+            "DrRacket.exe",
+            "DrRacket"
+        ]
+    ],
+    "checkver": {
+        "url": "https://download.racket-lang.org/",
+        "re": "Version ([\\d.]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://download.racket-lang.org/releases/$version/installers/racket-$version-x86_64-win32-cs.exe#/dl.7z"
+            }
+        },
+        "hash": {
+            "url": "https://download.racket-lang.org/releases/$version/",
+            "regex": "$basename[\\s\\S]*?\"checksum\">$sha1</span>"
+        }
+    }
+}

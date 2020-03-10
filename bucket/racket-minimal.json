@@ -2,7 +2,7 @@
     "version": "7.6",
     "homepage": "https://racket-lang.org",
     "license": "LGPL-3.0-or-later",
-    "description": " Minimal Racket installation, without DrRacket/docs.",
+    "description": "Minimal Racket installation, without DrRacket/docs.",
     "architecture": {
         "64bit": {
             "url": "https://mirror.racket-lang.org/installers/7.6/racket-minimal-7.6-x86_64-win32.exe#/dl.7z",
