@@ -2,18 +2,18 @@ name: Auto Update
 
 on:
   schedule:
-  - cron: '*/30 * * * *'
+    - cron: "0 0,12 * * *"
 
 jobs:
   deploy:
     name: Update packages
     runs-on: windows-latest
     steps:
-    - name: Checkout
-      uses: actions/checkout@v2
+      - name: Checkout
+        uses: actions/checkout@v2
 
-    - name: Bucket Updates
-      uses: Ash258/Scoop-GithubActions@stable-win
-      env:
-        GITH_EMAIL: batkiz@outlook.com
-        SKIP_UPDATED: '1'
+      - name: Bucket Updates
+        uses: Ash258/Scoop-GithubActions@stable-win
+        env:
+          GITH_EMAIL: batkiz@outlook.com
+          SKIP_UPDATED: "1"
