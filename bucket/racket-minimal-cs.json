@@ -5,7 +5,7 @@
     "description": "Racket minimal on Chez Scheme.",
     "architecture": {
         "64bit": {
-            "url": "https://download.racket-lang.org/releases/7.6/installers/racket-minimal-7.6-x86_64-win32-cs.exe#/dl.7z",
+            "url": "https://mirror.racket-lang.org/releases/7.6/installers/racket-minimal-7.6-x86_64-win32-cs.exe#/dl.7z",
             "hash": "sha1:0909ec9633f1630bee0da35a1d8be74b31bbb4c9"
         }
     },
@@ -20,7 +20,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.racket-lang.org/releases/$version/installers/racket-minimal-$version-x86_64-win32-cs.exe#/dl.7z"
+                "url": "https://mirror.racket-lang.org/releases/$version/installers/racket-minimal-$version-x86_64-win32-cs.exe#/dl.7z"
             }
         },
         "hash": {
