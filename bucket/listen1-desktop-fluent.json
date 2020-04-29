@@ -1,16 +1,12 @@
 {
-    "version": "2.3.1",
-    "homepage": "https://reycn.github.io/listen1_desktop_fluent/",
+    "version": "2.5.2",
+    "homepage": "https://github.com/reycn/listen1_desktop_fluent",
     "description": "One for all free music in China",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/reycn/listen1_desktop_fluent/releases/download/2.3.1/Listen1_2.3.1_fluent_win64_unpacked.7z",
-            "hash": "f78117022969e86ba172df4a78c03283356b8d15043014ef43b1a3498e476b13"
-        },
-        "32bit": {
-            "url": "https://github.com/reycn/listen1_desktop_fluent/releases/download/2.3.1/Listen1_2.3.1_fluent_win32_unpacked.7z",
-            "hash": "94212d4e3dbc04d9555cb56638d1a8cb75d68a71c55e56d2909b0b71c705f369"
+            "url": "https://github.com/reycn/listen1_desktop_fluent/releases/download/2.5.2/Listen1_2.5.2_win64_unpacked.7z",
+            "hash": "83512ea1db1dc187eed1187d5f7097438d356e278202fb1d0080cf956b7c9ca2"
         }
     },
     "bin": "Listen1.exe",
@@ -26,10 +22,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/reycn/listen1_desktop_fluent/releases/download/v$version/Listen1_v$version_fluent_win64_unpacked.7z"
-            },
-            "32bit": {
-                "url": "https://github.com/reycn/listen1_desktop_fluent/releases/download/v$version/Listen1_v$version_fluent_win32_unpacked.7z"
+                "url": "https://github.com/reycn/listen1_desktop_fluent/releases/download/$version/Listen1_$version_win64_unpacked.7z"
             }
         }
     }
