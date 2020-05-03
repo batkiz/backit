@@ -1,12 +1,12 @@
 {
-    "version": "7.6",
+    "version": "7.7",
     "homepage": "https://racket-lang.org",
     "license": "LGPL-3.0-or-later",
     "description": "Racket on Chez Scheme",
     "architecture": {
         "64bit": {
-            "url": "https://mirror.racket-lang.org/releases/7.6/installers/racket-7.6-x86_64-win32-cs.exe#/dl.7z",
-            "hash": "sha1:6520f644f20feec94e46d3ac6189c3db5247a1d4"
+            "url": "https://mirror.racket-lang.org/releases/7.7/installers/racket-7.7-x86_64-win32-cs.exe#/dl.7z",
+            "hash": "sha1:0047b8d7b47fb22627917945dff66dab7f3db5d1"
         }
     },
     "bin": [
