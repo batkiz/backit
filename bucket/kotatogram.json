@@ -1,11 +1,11 @@
 {
     "homepage": "https://github.com/kotatogram/kotatogram-desktop",
-    "version": "1.3.3",
+    "version": "1.3.4",
     "description": "Kotatogram – experimental Telegram Desktop fork.",
     "license": "GPLv3",
-    "url": "https://github.com/kotatogram/kotatogram-desktop/releases/download/k1.3.3/1.3.3.zip",
-    "hash": "fc13b0c6b1aec03e6ba5589146011a4023e3917d95b7334d893f33daf9ab693c",
-    "extract_dir": "1.3.3\\Windows\\bin",
+    "url": "https://github.com/kotatogram/kotatogram-desktop/releases/download/k1.3.4/1.3.4.zip",
+    "hash": "9f4a18929dd68907f40f6ce88ccb8e4b05724815c3237bcf9d7d0fcdd9d2a57e",
+    "extract_dir": "1.3.4\\Windows\\bin",
     "pre_install": "Remove-Item \"$dir\\$version\" -Recurse",
     "bin": "Kotatogram.exe",
     "shortcuts": [
