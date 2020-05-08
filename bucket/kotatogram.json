@@ -3,7 +3,7 @@
     "version": "1.3.4",
     "description": "Experimental Telegram Desktop fork.",
     "license": {
-        "identifier": "GPL-3.0-with-exception",
+        "identifier": "GPL-3.0-with-OpenSSL-exception",
         "url": "https://github.com/kotatogram/kotatogram-desktop/blob/dev/LICENSE"
     },
     "url": "https://github.com/kotatogram/kotatogram-desktop/releases/download/k1.3.4/1.3.4.zip",
