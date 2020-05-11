@@ -1,6 +1,6 @@
 {
     "version": "0.2.2",
-    "description": "Scoop Auto Completion. Allow tab compliton for scoop commands.",
+    "description": "scoop-completion, with PSReadlineKeyHandler.",
     "homepage": "https://github.com/Moeologist/scoop-completion",
     "license": {
         "identifier": "MIT",

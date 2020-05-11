@@ -1,7 +1,7 @@
 {
-    "homepage": "https://github.com/ivarptr/yu-writer.site",
+    "homepage": "https://ivarptr.github.io/yu-writer.site",
     "version": "0.5.3",
-    "license": "",
+    "license": "Unlicense",
     "description": "Efficient cross-platform Markdown text editor",
     "architecture": {
         "64bit": {

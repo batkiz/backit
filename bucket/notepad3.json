@@ -1,6 +1,6 @@
 {
     "version": "5.20.414.1",
-    "description": "Notepad like text editor based on the Scintilla source code.",
+    "description": "Notepad3, without registry.",
     "homepage": "https://www.rizonesoft.com/downloads/notepad3/",
     "license": "BSD-3-Clause",
     "url": "https://github.com/rizonesoft/Notepad3/releases/download/RELEASE_5.20.414.1/Notepad3_5.20.414.1.zip",
