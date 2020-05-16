@@ -1,9 +1,10 @@
 {
-    "homepage": "https://cjkis.me/capslock+",
-    "version": "2.7.0.1",
-    "license": "",
-    "url": "https://cjkis.me/assets/hexo/Capslock+_v2.7.0.1.exe#/Capslock+.exe",
-    "hash": "9481765b53234392ceeb79ebd7536d686a5630e11cf4f8db8f9fabae02bafa2d",
+    "homepage": "https://capslox.com/capslock-plus/",
+    "description": "An efficiency tool that provides various functions by enhancing the Caps Lock key into a modifier key.",
+    "version": "3.1.0",
+    "license": "GPL-2.0-only",
+    "url": "https://dl.capslox.com/app/Capslock%2B_v3.0.0.exe",
+    "hash": "2091eda0cbfacc9638a09e2fcdb3084c48a171553fdce91836da95d7637417c7",
     "shortcuts": [
         [
             "Capslock+.exe",
@@ -11,8 +12,28 @@
         ]
     ],
     "bin": "Capslock+.exe",
+    "pre_install": [
+        "function CreateFile([String] $file, [String] $content = $null) {",
+        "    if (!(Test-Path \"$persist_dir\\$file\")) {",
+        "        New-Item -Force -Path \"$persist_dir\\$file\" -ItemType file -Value $content | Out-Null",
+        "    }",
+        "    # Create symbolic link directly",
+        "    New-Item -ItemType SymbolicLink -Path \"$dir\\$file\" -Target \"$persist_dir\\$file\" | Out-Null",
+        "}",
+        "CreateFile 'CapsLock+settings.ini'",
+        "CreateFile 'CapsLock+winsInfosRecorder.ini'",
+        "if (!(Test-Path \"$persist_dir\\loadScript\")) {",
+        "    New-Item -Path \"$persist_dir\\loadScript\" -ItemType Directory | Out-Null"
+    ],
     "persist": [
         "CapsLock+settings.ini",
         "CapsLock+winsInfosRecorder.ini"
-    ]
+    ],
+    "checkver": {
+        "url": "https://capslox.com/capslock-plus/",
+        "regex": "版本：[\\d.]+"
+    },
+    "autoupdate": {
+        "url": "https://dl.capslox.com/app/Capslock%2B_v$version.exe"
+    }
 }
