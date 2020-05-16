@@ -1,10 +1,11 @@
 {
     "homepage": "https://capslox.com/capslock-plus/",
     "description": "An efficiency tool that provides various functions by enhancing the Caps Lock key into a modifier key.",
-    "version": "3.1.0",
+    "version": "3.0.0",
     "license": "GPL-2.0-only",
     "url": "https://dl.capslox.com/app/Capslock%2B_v3.0.0.exe",
     "hash": "2091eda0cbfacc9638a09e2fcdb3084c48a171553fdce91836da95d7637417c7",
+    "pre_install": "Rename-Item @(Get-ChildItem $dir\\Capslock*.exe)[0] $dir\\Capslock+.exe",
     "shortcuts": [
         [
             "Capslock+.exe",
@@ -12,28 +13,15 @@
         ]
     ],
     "bin": "Capslock+.exe",
-    "pre_install": [
-        "function CreateFile([String] $file, [String] $content = $null) {",
-        "    if (!(Test-Path \"$persist_dir\\$file\")) {",
-        "        New-Item -Force -Path \"$persist_dir\\$file\" -ItemType file -Value $content | Out-Null",
-        "    }",
-        "    # Create symbolic link directly",
-        "    New-Item -ItemType SymbolicLink -Path \"$dir\\$file\" -Target \"$persist_dir\\$file\" | Out-Null",
-        "}",
-        "CreateFile 'CapsLock+settings.ini'",
-        "CreateFile 'CapsLock+winsInfosRecorder.ini'",
-        "if (!(Test-Path \"$persist_dir\\loadScript\")) {",
-        "    New-Item -Path \"$persist_dir\\loadScript\" -ItemType Directory | Out-Null"
-    ],
-    "persist": [
-        "CapsLock+settings.ini",
-        "CapsLock+winsInfosRecorder.ini"
-    ],
     "checkver": {
         "url": "https://capslox.com/capslock-plus/",
         "regex": "版本：[\\d.]+"
     },
     "autoupdate": {
         "url": "https://dl.capslox.com/app/Capslock%2B_v$version.exe"
-    }
+    },
+    "notes": [
+        "We can't persist the config files, please backup it by yourself.",
+        "Help wanted."
+    ]
 }
