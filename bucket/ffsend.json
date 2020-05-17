@@ -2,11 +2,11 @@
     "homepage": "https://github.com/timvisee/ffsend",
     "description": "ffsend, without openssl depends.",
     "license": "GPL-3.0-only",
-    "version": "0.2.62",
+    "version": "0.2.63",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/timvisee/ffsend/releases/download/v0.2.62/ffsend-v0.2.62-windows-x64-static.exe#/ffsend.exe",
-            "hash": "4069fa1fb54f81f521396ef605021004e026410a36adf5097c71f4987c4da552"
+            "url": "https://github.com/timvisee/ffsend/releases/download/v0.2.63/ffsend-v0.2.63-windows-x64-static.exe#/ffsend.exe",
+            "hash": "424fa8390c52eb22e967c1b86e9b4fb820ef55609d42abcea6d63b1d08485b84"
         }
     },
     "suggest": "openssl",
