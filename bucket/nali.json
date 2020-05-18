@@ -1,0 +1,9 @@
+{
+    "homepage": "https://github.com/batkiz/backit",
+    "description": "Get the location info of an ip / a domain.",
+    "version": "nightly",
+    "license": "unlicense",
+    "url": "https://github.com/batkiz/backit/raw/master/psutils/nali.ps1",
+    "hash": "614d8f028da73562a62c2ef1f64fa67ebafbb037927145e404cd444fc282c6af",
+    "bin": "nali.ps1"
+}

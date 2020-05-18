@@ -1,0 +1,9 @@
+{
+    "homepage": "https://github.com/batkiz/backit",
+    "description": " An approximation of the Unix time command.",
+    "version": "nightly",
+    "license": "unlicense",
+    "url": "https://github.com/batkiz/backit/raw/master/psutils/time.ps1",
+    "hash": "0b8c4335ac43158c8c1691a4c5c29729d4a37b91d62f0f7245272e151dfb5468",
+    "bin": "time.ps1"
+}

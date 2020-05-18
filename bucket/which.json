@@ -1,0 +1,9 @@
+{
+    "homepage": "https://github.com/batkiz/backit",
+    "description": " Show the full path of command.",
+    "version": "nightly",
+    "license": "unlicense",
+    "url": "https://github.com/batkiz/backit/raw/master/psutils/which.ps1",
+    "hash": "fedb9cedd6044391a694df93b36eda286a6958f755d707406fb6eb20963df9df",
+    "bin": "which.ps1"
+}
