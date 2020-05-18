@@ -1,0 +1,18 @@
+
+{
+    "homepage": "https://github.com/filipw/dotnet-script",
+    "description": "Run C# scripts from the .NET CLI.",
+    "license": "MIT",
+    "version": "0.52.0",
+    "suggest": {
+        "dotnet core SDK": "dotnet-sdk"
+    },
+    "url": "https://github.com/filipw/dotnet-script/releases/download/0.52.0/dotnet-script.0.52.0.zip",
+    "hash": "557c665c33b5222f539b3626951df4504fc95db39546c4f185bffb39acc67339",
+    "extract_dir": "dotnet-script",
+    "bin": "dotnet-script.cmd",
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/filipw/dotnet-script/releases/download/$version/dotnet-script.$version.zip"
+    }
+}
