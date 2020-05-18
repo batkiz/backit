@@ -4,18 +4,20 @@ This is a [scoop](https://github.com/lukesampson/scoop) bucket, _backit_ is a tr
 
 ## Attention
 
-This is a bucket for *validation* and personal usage only.
+I may create many useless commits, the mainfests may contain errors.
+
+Fell free to make a star, issue or pull request.
 
 ## Installation
 
-for install:
+install this bucket:
 
-```ps
+```powershell
 scoop bucket add backit https://github.com/batkiz/backit
 ```
 
-for uninstall:
+remove this bucket:
 
-```ps
+```powershell
 scoop bucket rm backit
 ```
