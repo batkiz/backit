@@ -1,0 +1,28 @@
+{
+    "homepage": "https://github.com/XAMPPRocky/tokei",
+    "description": "Tokei is a program that displays statistics about your code. Tokei will show the number of files, total lines within those files and code, comments, and blanks grouped by language.",
+    "license": "Apache-2.0",
+    "version": "11.2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/XAMPPRocky/tokei/releases/download/v11.2.0/tokei-x86_64-pc-windows-msvc.exe#/tokei.exe",
+            "hash": "b89f778fb051e96503fd014645d3593188fb0aa506e83dbce68a045184851dca"
+        },
+        "32bit": {
+            "url": "https://github.com/XAMPPRocky/tokei/releases/download/v11.2.0/tokei-i686-pc-windows-msvc.exe#/tokei.exe",
+            "hash": "0ea5101112a7ed105e33cfb776db7b2b78040c56d52c3b961750048058949b23"
+        }
+    },
+    "bin": "tokei.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/XAMPPRocky/tokei/releases/download/v$version/tokei-x86_64-pc-windows-msvc.exe#/tokei.exe"
+            },
+            "32bit": {
+                "url": "https://github.com/XAMPPRocky/tokei/releases/download/v$version/tokei-i686-pc-windows-msvc.exe#/tokei.exe"
+            }
+        }
+    }
+}
