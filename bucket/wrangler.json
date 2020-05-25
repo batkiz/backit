@@ -1,0 +1,21 @@
+{
+    "homepage": "https://github.com/cloudflare/wrangler",
+    "description": "wrangler is a CLI tool designed for folks who are interested in using Cloudflare Workers.",
+    "license": "Apache-2.0",
+    "version": "1.9.1",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/cloudflare/wrangler/releases/download/v1.9.1/wrangler-v1.9.1-x86_64-pc-windows-msvc.tar.gz",
+            "hash": "83d75c7bd4624a42b54d24214c09e80f3b9e2d87a8ab50d723b326f62619b7e4"
+        }
+    },
+    "bin": "dist\\wrangler.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/cloudflare/wrangler/releases/download/v$version/wrangler-v$version-x86_64-pc-windows-msvc.tar.gz"
+            }
+        }
+    }
+}
