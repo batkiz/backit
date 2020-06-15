@@ -1,0 +1,14 @@
+{
+    "homepage": "https://github.com/dotnet/cli-lab/",
+    "description": "A guided tool will be provided to enable the controlled clean up of a system such that only the desired versions of the Runtime and SDKs remain.",
+    "license": "MIT",
+    "version": "1.1.122401",
+    "url": "https://github.com/dotnet/cli-lab/releases/download/1.1.122401/dotnet-core-uninstall-1.1.122401.msi",
+    "hash": "b20a3da6dab5755018e715197322146227ea43543e66de13c27424b611719c68",
+    "extract_dir": "dotnet-core-uninstall",
+    "bin": "dotnet-core-uninstall.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/dotnet/cli-lab/releases/download/$version/dotnet-core-uninstall-$version.msi"
+    }
+}
