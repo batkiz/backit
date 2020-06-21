@@ -1,10 +1,10 @@
 {
     "homepage": "https://github.com/rxi/lite",
-    "version": "1.08",
+    "version": "1.09",
     "description": "A lightweight text editor written in Lua.",
     "license": "MIT",
-    "url": "https://github.com/rxi/lite/releases/download/v1.08/lite.zip",
-    "hash": "5de3fa242c42691500480cc532574844c3feaba5ca00ce0597a553965a17fcfe",
+    "url": "https://github.com/rxi/lite/releases/download/v1.09/lite.zip",
+    "hash": "5fd9d76a2022f5c36269dcd7197a6f61ea4337aaff6fc2557695ec6c4e4c90fa",
     "bin": "lite.exe",
     "shortcuts": [
         [
