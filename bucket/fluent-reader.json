@@ -1,16 +1,16 @@
 {
     "homepage": "https://github.com/yang991178/fluent-reader/",
     "description": "Modern desktop RSS reader built with Electron, React, and Fluent UI.",
-    "version": "0.5.1-beta",
+    "version": "0.6.0-beta",
     "license": "BSD-3-Clause",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/yang991178/fluent-reader/releases/download/v0.5.1-beta/Fluent.Reader.Unpacked.0.5.1.x64.zip",
-            "hash": "1abe65e70ce0471463f06bcc5f9aa9be0d8b867afec027bd995bf53080cb7f55"
+            "url": "https://github.com/yang991178/fluent-reader/releases/download/v0.6.0-beta/Fluent.Reader.Unpacked.0.6.0.x64.zip",
+            "hash": "979235e12268fb60137a1c07b9dbbb27676b042d4cc1a018df811e0302c3a66f"
         },
         "32bit": {
-            "url": "https://github.com/yang991178/fluent-reader/releases/download/v0.5.1-beta/Fluent.Reader.Unpacked.0.5.1.x86.zip",
-            "hash": "85fecae288425dd4041b9eab271ba2234386d5c8342def54806c6a407e0e6a01"
+            "url": "https://github.com/yang991178/fluent-reader/releases/download/v0.6.0-beta/Fluent.Reader.Unpacked.0.6.0.x86.zip",
+            "hash": "a4bc2caba8227372fcd6e40cd83b254675fedbf87e6cd98d2475a4234b94f4ca"
         }
     },
     "extract_dir": "win-unpacked",
