@@ -1,10 +1,10 @@
 {
-    "version": "5.20.414.1",
+    "version": "5.20.722.1",
     "description": "Notepad3, without registry.",
     "homepage": "https://www.rizonesoft.com/downloads/notepad3/",
     "license": "BSD-3-Clause",
-    "url": "https://github.com/rizonesoft/Notepad3/releases/download/RELEASE_5.20.414.1/Notepad3_5.20.414.1.zip",
-    "hash": "a86873d36c491262c1e34055388038ad43bd96fa6092087d947bdb59fd79d15f",
+    "url": "https://github.com/rizonesoft/Notepad3/releases/download/RELEASE_5.20.722.1/Notepad3_5.20.722.1.zip",
+    "hash": "f18377c253bfa37b3a06fff01600ca9002dd6de340f64ed1f1608bd49dcbf61c",
     "bin": [
         "Notepad3.exe",
         "minipath.exe"
