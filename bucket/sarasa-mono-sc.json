@@ -1,0 +1,43 @@
+{
+    "version": "0.12.6",
+    "license": "MIT",
+    "homepage": "https://github.com/be5invis/Sarasa-Gothic-SC",
+    "url": "https://github.com/be5invis/Sarasa-Gothic/releases/download/v0.12.6/sarasa-gothic-ttf-0.12.6.7z",
+    "hash": "373b1149b3e19bedc3869330cd68788169c6213a01a30d824e708d7c2cf301a3",
+    "installer": {
+        "script": [
+            "if(!(is_admin)) { error \"Admin rights are required, please run 'sudo scoop install $app'\"; exit 1 }",
+            "New-Item $dir\\backup -Type Directory",
+            "Add-Type -AssemblyName System.Drawing",
+            "Get-ChildItem $dir -filter 'sarasa-mono-sc-*.ttf' | ForEach-Object {",
+            "    $fontCollection = new-object System.Drawing.Text.PrivateFontCollection",
+            "    $fontCollection.AddFontFile($_.fullname)",
+            "    echo $fontCollection.Families[-1].Name",
+            "    Add-Content -Path $dir\\fontCollection -Value $fontCollection.Families[-1].Name",
+            "    New-ItemProperty -Path 'HKLM:\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Fonts' -Name $fontCollection.Families[-1].Name -Value $_.Name -Force | Out-Null",
+            "    $fontCollection.Dispose()",
+            "    Copy-Item $_.FullName -destination \"$env:windir\\Fonts\"",
+            "    Copy-Item $_.FullName -destination $dir\\backup\\",
+            "}",
+            "Remove-Item *.ttf",
+            "Get-ChildItem $Path | Where{$_.Name -Match \".+-((?!sc).)+-[A-Za-z]+\\.ttf\"} | Remove-Item"
+        ]
+    },
+    "uninstaller": {
+        "script": [
+            "if(!(is_admin)) { error \"Admin rights are required, please run 'sudo scoop uninstall $app'\"; exit 1 }",
+            "Get-ChildItem $dir\\backup -filter 'sarasa-mono-sc-*.ttf' | ForEach-Object {",
+            "    Remove-Item \"$env:windir\\Fonts\\$($_.Name)\" -Force -ErrorAction SilentlyContinue",
+            "}",
+            "(Get-Content -Path $dir\\fontCollection) | ForEach-Object {",
+            "    echo $_",
+            "    Remove-ItemProperty -Path 'HKLM:\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Fonts' -Name $_ -Force -ErrorAction SilentlyContinue",
+            "}",
+            "Write-Host \"The '$app' Font family has been uninstalled and will not be present after restarting your computer.\" -Foreground Magenta"
+        ]
+    },
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/be5invis/Sarasa-Gothic/releases/download/v$version/sarasa-gothic-ttf-$version.7z"
+    }
+}
