@@ -1,11 +1,11 @@
 {
     "description": "Search for anything in everything... ultra fast",
     "homepage": "https://github.com/Genivia/ugrep",
-    "version": "2.5.4",
+    "version": "2.5.5",
     "license": "BSD-3-Clause",
     "checkver": "github",
-    "url": "https://github.com/Genivia/ugrep/releases/download/v2.5.4/ugrep.exe#/ug.exe",
-    "hash": "32fcb0c7e23e99ece242827f534e1efa1f3bcc53f2f20182b5e3149225cb9975",
+    "url": "https://github.com/Genivia/ugrep/releases/download/v2.5.5/ugrep.exe#/ug.exe",
+    "hash": "df6dc235bb88dba5c57e0eb880d41e865406aa7443a0fde3753fb436a9223f27",
     "bin": "ug.exe",
     "autoupdate": {
         "url": "https://github.com/Genivia/ugrep/releases/download/v$version/ugrep.exe#/ug.exe"
