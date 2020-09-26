@@ -1,9 +1,9 @@
 {
-    "version": "3.6.1",
+    "version": "3.6.2",
     "license": "MIT",
     "homepage": "https://github.com/be5invis/Iosevka",
-    "url": "https://github.com/be5invis/Iosevka/releases/download/v3.6.1/ttf-iosevka-3.6.1.zip",
-    "hash": "5c6c37740e5e7252b8f68976031adec887ed803f8ea4beab50491a03c69c9961",
+    "url": "https://github.com/be5invis/Iosevka/releases/download/v3.6.2/ttf-iosevka-3.6.2.zip",
+    "hash": "363c01db6a6477169c78ea5b0231916dbf10b840549b931aa3b9336fd8b56551",
     "installer": {
         "script": [
             "if(!(is_admin)) { error \"Admin rights are required, please run 'sudo scoop install $app'\"; exit 1 }",
