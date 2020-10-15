@@ -79,6 +79,5 @@
                 "url": "https://github.com/llvm/llvm-project/releases/download/llvmorg-$version/LLVM-$version-win32.exe#/dl.7z"
             }
         }
-    },
-    "notes": "would contain pre-releases"
+    }
 }
