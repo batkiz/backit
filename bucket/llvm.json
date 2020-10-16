@@ -68,7 +68,7 @@
     ],
     "checkver": {
         "url": "https://llvm.org/",
-        "regex": "LLVM ([\\d.]+)"
+        "regex": "([\\d.]+):"
     },
     "autoupdate": {
         "architecture": {
