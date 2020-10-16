@@ -1,16 +1,16 @@
 {
-    "version": "0.6.5",
+    "version": "0.6.9",
     "description": "Bit is a modern Git CLI",
     "homepage": "https://github.com/chriswalz/bit",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/chriswalz/bit/releases/download/v0.6.5/bit_0.6.5_Windows_x86_64.tar.gz",
-            "hash": "868b2476f8841270b5d5ebab886d58874082cbe9c9919941ef73849546fab5a5"
+            "url": "https://github.com/chriswalz/bit/releases/download/v0.6.9/bit_0.6.9_Windows_x86_64.tar.gz",
+            "hash": "8e2319e506be4b2505adafe0a91635f783ddbb03c1150d856ac146b808c52ec4"
         },
         "32bit": {
-            "url": "https://github.com/chriswalz/bit/releases/download/v0.6.5/bit_0.6.5_Windows_i386.tar.gz",
-            "hash": "fa0cbe177ef7254edadd2abd3ca8e1ef7aa775ec3652635e632fa239dc089e40"
+            "url": "https://github.com/chriswalz/bit/releases/download/v0.6.9/bit_0.6.9_Windows_i386.tar.gz",
+            "hash": "58b0218ece664edec8d17b6dac3179d0b01942c6ce174c3cd78ca1a12cebcd26"
         }
     },
     "bin": "bit.exe",
