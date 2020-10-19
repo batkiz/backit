@@ -1,15 +1,15 @@
 {
     "description": "A command-line system information tool that displays information about your project directly on your terminal.",
     "homepage": "https://github.com/o2sh/onefetch",
-    "version": "2.4.0",
+    "version": "2.5.0",
     "license": "MIT",
     "notes": "You may have to enable ANSI Color Codes in your terminal. See https://stackoverflow.com/questions/51680709/",
     "bin": "onefetch.exe",
     "checkver": "github",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/o2sh/onefetch/releases/download/v2.4.0/onefetch-win.tar.gz",
-            "hash": "b968312d18e2afefd1768995d872ddfaa716d27061fb837403e89d0a79f60444"
+            "url": "https://github.com/o2sh/onefetch/releases/download/v2.5.0/onefetch-win.tar.gz",
+            "hash": "69b05bfaf2b03838055609eb1c2d02dc4753c31859ae979add95326e50428595"
         }
     },
     "autoupdate": {
