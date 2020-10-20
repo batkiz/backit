@@ -1,16 +1,16 @@
 {
-    "version": "0.6.14",
-    "description": "Bit is a modern Git CLI",
+    "version": "0.7.5",
+    "description": "Modernized git CLI",
     "homepage": "https://github.com/chriswalz/bit",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/chriswalz/bit/releases/download/v0.6.14/bit_0.6.14_Windows_x86_64.tar.gz",
-            "hash": "17dfbca1c228a4a79829151d714692de1c2ff841cb071982b808fa19c81288f9"
+            "url": "https://github.com/chriswalz/bit/releases/download/v0.7.5/bit_0.7.5_Windows_amd64.tar.gz",
+            "hash": "41e9305c1533950936b4d356c0102fff355c99957fd6f11db128c4ede51e1ce7"
         },
         "32bit": {
-            "url": "https://github.com/chriswalz/bit/releases/download/v0.6.14/bit_0.6.14_Windows_i386.tar.gz",
-            "hash": "12a8b9eecb83244c6d826f02d4651d025c3f42419fa70c9132704eaa7e710e3b"
+            "url": "https://github.com/chriswalz/bit/releases/download/v0.7.5/bit_0.7.5_Windows_386.tar.gz",
+            "hash": "0aee56bc8a21f1e0de9724176dc930bf8a4b8e87696770aed4aeb0a5148bd3ac"
         }
     },
     "bin": "bit.exe",
@@ -18,11 +18,14 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/chriswalz/bit/releases/download/v$version/bit_$version_Windows_x86_64.tar.gz"
+                "url": "https://github.com/chriswalz/bit/releases/download/v$version/bit_$version_Windows_amd64.tar.gz"
             },
             "32bit": {
-                "url": "https://github.com/chriswalz/bit/releases/download/v$version/bit_$version_Windows_i386.tar.gz"
+                "url": "https://github.com/chriswalz/bit/releases/download/v$version/bit_$version_Windows_386.tar.gz"
             }
+        },
+        "hash": {
+            "url": "$baseurl/bit_$version_checksums.txt"
         }
     }
 }
