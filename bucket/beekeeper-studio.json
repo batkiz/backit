@@ -1,12 +1,12 @@
 {
-    "version": "1.8.2",
+    "version": "1.8.5",
     "description": "SQL editor and database management",
     "homepage": "https://www.beekeeperstudio.io",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/beekeeper-studio/beekeeper-studio/releases/download/v1.8.2/Beekeeper-Studio-Setup-1.8.2.exe#/dl.7z",
-            "hash": "sha512:8a58461641e59e798b1d5060f3b53361abdacc3178004660cf40bca2f9316b470dd9451811916eba5ca9f3cb68b18d3bb31ead9255564d8fe61f89b1fa3276cf",
+            "url": "https://github.com/beekeeper-studio/beekeeper-studio/releases/download/v1.8.5/Beekeeper-Studio-Setup-1.8.5.exe#/dl.7z",
+            "hash": "sha512:005758481bea877378ee0aa1c07c2b490f900b4c5699fc1a07b19bfecddbda589beeb88616ad635e844139f40086cec3ad49d6d2866d78b0b2cffc2d9331780b",
             "pre_install": [
                 "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
                 "Remove-Item \"$dir\\`$*\", \"$dir\\Uninst*\" -Force -Recurse"
