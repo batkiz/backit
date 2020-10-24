@@ -1,9 +1,9 @@
 {
-    "version": "0.14.3",
+    "version": "0.14.4",
     "license": "MIT",
     "homepage": "https://github.com/be5invis/Sarasa-Gothic",
-    "url": "https://github.com/be5invis/Sarasa-Gothic/releases/download/v0.14.3/sarasa-gothic-ttf-0.14.3.7z",
-    "hash": "4f0545f07d6fbf371b6979f5667f04beaad47e39c431709100e5afefec6c2c26",
+    "url": "https://github.com/be5invis/Sarasa-Gothic/releases/download/v0.14.4/sarasa-gothic-ttf-0.14.4.7z",
+    "hash": "4b351530fab94635dcd0b20d6ca7a9d13fc6d0d21a70992e66211a9cfba143aa",
     "installer": {
         "script": [
             "if(!(is_admin)) { error \"Admin rights are required, please run 'sudo scoop install $app'\"; exit 1 }",
