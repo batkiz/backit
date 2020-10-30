@@ -6,7 +6,7 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/cloudflare/wrangler/releases/download/v1.12.1/wrangler-v1.12.1-x86_64-pc-windows-msvc.tar.gz",
-            "hash": "876cd8d2ba71853faca517e35a3fdcf43203b837924b050b6c4fe849a1915260"
+            "hash": "7772f73a2ae51e0d7d086e8d554583a91f02032811ed0dd84c7355b8913ae5cb"
         }
     },
     "bin": "dist\\wrangler.exe",
