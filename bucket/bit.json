@@ -1,16 +1,16 @@
 {
-    "version": "0.8.2",
+    "version": "0.8.3",
     "description": "Modernized git CLI",
     "homepage": "https://github.com/chriswalz/bit",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/chriswalz/bit/releases/download/v0.8.2/bit_0.8.2_Windows_amd64.tar.gz",
-            "hash": "164366c495619f68e8ed00db719236f85322270ca16c06dbd6dec45cf76049a6"
+            "url": "https://github.com/chriswalz/bit/releases/download/v0.8.3/bit_0.8.3_Windows_amd64.tar.gz",
+            "hash": "d3dff53189df5b1823e706819f7eb99baa1077fd88a016911b4b90a37b44ed7e"
         },
         "32bit": {
-            "url": "https://github.com/chriswalz/bit/releases/download/v0.8.2/bit_0.8.2_Windows_386.tar.gz",
-            "hash": "a0b0a8887c76ae26135b38b255483a269492cf3aa3a8f6d3a6f9b505a2853e36"
+            "url": "https://github.com/chriswalz/bit/releases/download/v0.8.3/bit_0.8.3_Windows_386.tar.gz",
+            "hash": "8cb425ef8337f2952d5163de3dc986562aea07a886b53a7971a79deba49f44ae"
         }
     },
     "bin": "bit.exe",
