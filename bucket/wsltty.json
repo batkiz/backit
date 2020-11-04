@@ -1,16 +1,16 @@
 {
-    "version": "3.4.1",
+    "version": "3.4.2",
     "description": "Mintty as a terminal for WSL (Windows Subsystem for Linux).",
     "homepage": "https://github.com/mintty/wsltty",
     "license": "GPL-3.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/mintty/wsltty/releases/download/3.4.1/wsltty-3.4.1-install-x86_64.exe#/dl.7z",
-            "hash": "a9b9462863f933fd9f20ae25cf0d7dabfbbde1e93b6238cbe2544e1784e2086f"
+            "url": "https://github.com/mintty/wsltty/releases/download/3.4.2/wsltty-3.4.2-install-x86_64.exe#/dl.7z",
+            "hash": "a0ff292a7a5806a18d405d98335b2ab6fae6429e316975e8dd42b0edea5ab0e5"
         },
         "32bit": {
-            "url": "https://github.com/mintty/wsltty/releases/download/3.4.1/wsltty-3.4.1-install-i686.exe#/dl.7z",
-            "hash": "58d43c94d0353e0de9de080db23d1dc9046af9a348a624d9d5eb49a3a1a3fd29"
+            "url": "https://github.com/mintty/wsltty/releases/download/3.4.2/wsltty-3.4.2-install-i686.exe#/dl.7z",
+            "hash": "3931142ce127ca2830f7eb80bbac0156da7e5e98417b65cdbe44df5945c82e50"
         }
     },
     "extract_to": "installer",
