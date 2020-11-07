@@ -8,8 +8,7 @@
     "extract_dir": "TinyTeX",
     "env_add_path": "bin\\win32",
     "persist": [
-        "texmf-config",
-        "texmf-var"
+        "texmf-config"
     ],
     "checkver": {
         "github": "https://github.com/yihui/tinytex-releases"
