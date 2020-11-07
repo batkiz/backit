@@ -7,6 +7,10 @@
     "hash": "ecc608e3b9045fc5ee8e6fe5fd2406757118c063131e2472b4e5b585db539bea",
     "extract_dir": "TinyTeX",
     "env_add_path": "bin\\win32",
+    "persist": [
+        "texmf-config",
+        "texmf-var"
+    ],
     "checkver": {
         "github": "https://github.com/yihui/tinytex-releases"
     },
