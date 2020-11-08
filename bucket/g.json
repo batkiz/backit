@@ -14,6 +14,13 @@
         }
     },
     "bin": "g.exe",
+    "env_set": {
+        "G_HOME": "$dir\\g"
+    },
+    "env_add_path": [
+        "g\\go\\bin"
+    ],
+    "persist": "g",
     "checkver": "github",
     "autoupdate": {
         "architecture": {
