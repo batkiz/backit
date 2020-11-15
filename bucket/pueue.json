@@ -15,7 +15,10 @@
             ]
         }
     },
-    "bin": "pueue.exe",
+    "bin": [
+        "pueue.exe",
+        "pueued.exe"
+    ],
     "checkver": "github",
     "autoupdate": {
         "architecture": {
