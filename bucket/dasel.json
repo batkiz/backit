@@ -1,12 +1,12 @@
 {
-    "version": "1.7.0",
+    "version": "1.8.0",
     "description": "Query and update data structures from the command line.",
     "homepage": "https://github.com/TomWright/dasel",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/TomWright/dasel/releases/download/v1.7.0/dasel_windows_amd64.exe#/dasel.exe",
-            "hash": "cde27274b3bb091490c3f5aac477ac66db8577b1a1a48adcc94d491887f811dd"
+            "url": "https://github.com/TomWright/dasel/releases/download/v1.8.0/dasel_windows_amd64.exe#/dasel.exe",
+            "hash": "5173274e90868d6d51a3ee580a2806650fd47107f7cee3b81c06ce92f4272a5f"
         }
     },
     "bin": "dasel.exe",
