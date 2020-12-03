@@ -23,7 +23,7 @@
                 "url": "https://github.com/leancloud/lean-cli/releases/download/v$version/lean-windows-x64.exe#/lean.exe"
             },
             "32bit": {
-                "url": "https://github.com/leancloud/lean-cli/releases/download/v$version/lean-windows-x86.exe"
+                "url": "https://github.com/leancloud/lean-cli/releases/download/v$version/lean-windows-x86.exe#/lean.exe"
             }
         }
     }
