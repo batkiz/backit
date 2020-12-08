@@ -44,7 +44,7 @@ The manifests in this bucket would be as listed below:
 * wrote by myself, not PRed to official buckets
 * the apps not satisfied with official rules
 
-Fell free to make a star, issue or pull request.
+Feel free to make a star, issue or pull request.
 
 ## Installation
 
