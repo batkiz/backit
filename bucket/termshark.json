@@ -1,0 +1,27 @@
+{
+    "version": "2.1.1",
+    "description": "A terminal UI for tshark, inspired by Wireshark",
+    "homepage": "https://github.com/gcla/termshark",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/gcla/termshark/releases/download/v2.1.1/termshark_2.1.1_windows_x64.zip",
+            "hash": "8e4e4f100437fc9ffa592d914d6d6f4fcd4d8575ea3d76f77ba61846d09a0b31"
+        }
+    },
+    "extract_dir": "termshark_2.1.1_windows_x64",
+    "bin": "termshark.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/gcla/termshark/releases/download/v$version/termshark_$version_windows_x64.zip"
+            }
+        },
+        "hash": {
+            "url": "https://github.com/gcla/termshark/releases/download/v$version/checksums.txt",
+            "mode": "extract"
+        }
+    },
+    "notes": "termshark depends on tshark, part of Wireshark"
+}
