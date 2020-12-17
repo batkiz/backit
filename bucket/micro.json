@@ -1,5 +1,5 @@
 {
-    "version": "3.0.3",
+    "version": "3.0.4",
     "description": "Micro is a platform for cloud native application development",
     "homepage": "https://github.com/micro/micro",
     "license": {
@@ -8,12 +8,12 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/micro/micro/releases/download/v3.0.3/micro-v3.0.3-windows-amd64.zip",
-            "hash": "e05e5d0bf294bcbc769a7257188027dde2075164e51c6d10536f73de2347f55d"
+            "url": "https://github.com/micro/micro/releases/download/v3.0.4/micro-v3.0.4-windows-amd64.zip",
+            "hash": "e47ab187adb7e90a6ce9bf4f9287347561c8729f4bba85e2f66d266dd38c555f"
         },
         "32bit": {
-            "url": "https://github.com/micro/micro/releases/download/v3.0.3/micro-v3.0.3-windows-386.zip",
-            "hash": "ae06731f86614b5a431265e7c85e249a67e633c72b4c24fcaf4eae19c1e693f1"
+            "url": "https://github.com/micro/micro/releases/download/v3.0.4/micro-v3.0.4-windows-386.zip",
+            "hash": "dde5e8dd0aad6886ca7879e11983e39bf47172d862c1a268a04f870d7af88880"
         }
     },
     "bin": "micro.exe",
