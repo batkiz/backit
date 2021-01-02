@@ -1,9 +1,9 @@
 {
-    "version": "4.2.0",
+    "version": "0.16.4",
     "license": "MIT",
-    "homepage": "https://github.com/be5invis/Iosevka",
-    "url": "https://github.com/be5invis/Iosevka/releases/download/v4.2.0/ttc-iosevka-4.2.0.zip",
-    "hash": "91a7e55af4d814e79e464e0df38120228baf339db0d3105e297996084fbae86b",
+    "homepage": "https://github.com/be5invis/Sarasa-Gothic",
+    "url": "https://github.com/be5invis/Sarasa-Gothic/releases/download/v0.16.4/sarasa-gothic-ttc-0.16.4.7z",
+    "hash": "5b6d64bb87eacc3b75241a9e55d5490429e385a2554c8cd9120ad57bca452b25",
     "installer": {
         "script": [
             "$Destination = (New-Object -ComObject Shell.Application).Namespace(0x14)",
@@ -23,7 +23,7 @@
     "uninstaller": {
         "script": [
             "if(!(is_admin)) { error \"Admin rights are required, please run 'sudo scoop uninstall $app'\"; exit 1 }",
-            "Get-ChildItem $dir -filter 'iosevka*.ttf' | ForEach-Object {",
+            "Get-ChildItem $dir -filter 'sarasa*.ttf' | ForEach-Object {",
             "    Remove-Item \"$env:windir\\Fonts\\$($_.Name)\" -Force -ErrorAction SilentlyContinue",
             "}",
             "(Get-Content -Path $dir\\fontCollection) | ForEach-Object {",
@@ -35,6 +35,6 @@
     },
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/be5invis/Iosevka/releases/download/v$version/ttc-iosevka-$version.zip"
+        "url": "https://github.com/be5invis/Sarasa-Gothic/releases/download/v$version/sarasa-gothic-ttc-$version.7z"
     }
 }
