@@ -1,0 +1,34 @@
+{
+    "version": "0.6.0",
+    "description": "Everything integration for the Windows taskbar.",
+    "homepage": "https://github.com/stnkl/EverythingToolbar",
+    "license": "MIT",
+    "url": "https://github.com/stnkl/EverythingToolbar/releases/download/0.6.0/EverythingToolbar-0.6.0.zip",
+    "hash": "a7072712c0e697b2b5f05b222409397e737d51dd3deecbeb0f4a787ffcbeb588",
+    "installer": {
+        "script": [
+            "sudo $dir\\install.cmd"
+        ]
+    },
+    "uninstaller": {
+        "script": [
+            "sudo $dir\\uninstall.cmd"
+        ]
+    },
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/stnkl/EverythingToolbar/releases/download/$version/EverythingToolbar-$version.zip"
+    },
+    "suggest": {
+        "sudo": [
+            "main/sudo",
+            "main/gsudo"
+        ]
+    },
+    "notes": [
+        "Install and uninstall need admin privilege, please install main/sudo or main/gsudo",
+        "For using this, Everything ≥ 1.4.1 must be running (lite version not supported)",
+        "After installing this, please enable EverythingToolbar via the context menu of the taskbar",
+        "For more information, please check https://github.com/stnkl/EverythingToolbar"
+    ]
+}
