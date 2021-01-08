@@ -1,0 +1,37 @@
+{
+    "version": "0.2.11",
+    "description": "A simple, efficient, open source RSS reader service",
+    "homepage": "https://dinorss.org/",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/richshaw2015/dino-rss-electron/releases/download/v0.2.11/Dinosaur.Rss.0.2.11.exe#/dl.7z",
+            "hash": "sha512:2f1828942c075798e38401f6af501717b31e6c603410a6907fade149a43246a087bb5944decbf337452ebcd7f5679259643c3fc5b874ad096c3b32b1fa2acdaf",
+            "pre_install": [
+                "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
+                "Remove-Item \"$dir\\`$*\", \"$dir\\Uninst*\" -Force -Recurse"
+            ]
+        }
+    },
+    "shortcuts": [
+        [
+            "Dinosaur Rss.exe",
+            "Dinosaur Rss"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/richshaw2015/dino-rss-electron"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/richshaw2015/dino-rss-electron/releases/download/v$version/Dinosaur.Rss.$version.exe#/dl.7z"
+            }
+        },
+        "hash": {
+            "url": "https://github.com/richshaw2015/dino-rss-electron/releases/download/v$version/latest.yml",
+            "mode": "extract",
+            "regex": "sha512: $base64"
+        }
+    }
+}
