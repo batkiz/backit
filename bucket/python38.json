@@ -52,7 +52,10 @@
             "idle38"
         ]
     ],
-    "env_add_path": "scripts",
+    "env_add_path": [
+        "scripts",
+        "$env:APPDATA\\Python\\Python38\\Scripts"
+    ],
     "checkver": {
         "url": "https://www.python.org/downloads/windows/",
         "re": "python-(3\\.8\\.[\\d.]+)-"
