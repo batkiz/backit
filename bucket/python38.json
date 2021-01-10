@@ -53,7 +53,7 @@
         ]
     ],
     "env_add_path": [
-        "scripts",
+        "$dir\\Scripts",
         "$env:APPDATA\\Python\\Python38\\Scripts"
     ],
     "checkver": {
