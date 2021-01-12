@@ -1,12 +1,12 @@
 {
-    "version": "0.2.11",
+    "version": "0.2.12",
     "description": "A simple, efficient, open source RSS reader service",
     "homepage": "https://dinorss.org/",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/richshaw2015/dino-rss-electron/releases/download/v0.2.11/Dinosaur.Rss.0.2.11.exe#/dl.7z",
-            "hash": "sha512:2f1828942c075798e38401f6af501717b31e6c603410a6907fade149a43246a087bb5944decbf337452ebcd7f5679259643c3fc5b874ad096c3b32b1fa2acdaf",
+            "url": "https://github.com/richshaw2015/dino-rss-electron/releases/download/v0.2.12/Dinosaur.Rss.0.2.12.exe#/dl.7z",
+            "hash": "sha512:a304afacbf2e88bf9b67a22cd2f629a7e35c2e8fdd4e064cd8c1edf53dc5e2f064624e304e90b82492b9fa097d51b60c9e4e0c0d05b71f5fdd51d9ec32978397",
             "pre_install": [
                 "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
                 "Remove-Item \"$dir\\`$*\", \"$dir\\Uninst*\" -Force -Recurse"
