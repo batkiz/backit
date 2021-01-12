@@ -1,0 +1,23 @@
+{
+    "version": "1.9.2",
+    "description": "An extremely fast directory and filename linter - Bring some structure to your project directories",
+    "homepage": "https://ls-lint.org/",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/loeffel-io/ls-lint/releases/download/v1.9.2/ls-lint-windows.exe#/ls-lint.exe",
+            "hash": "015e2a5d9d0b3091ebe3af4595f78135723619259a6d663ed5273c7e72bdd81e"
+        }
+    },
+    "bin": "ls-lint.exe",
+    "checkver": {
+        "github": "https://github.com/loeffel-io/ls-lint"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/loeffel-io/ls-lint/releases/download/v$version/ls-lint-windows.exe#/ls-lint.exe"
+            }
+        }
+    }
+}
