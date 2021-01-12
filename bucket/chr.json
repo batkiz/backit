@@ -6,7 +6,7 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/pemistahl/chr/releases/download/v1.0.0/chr-v1.0.0-x86_64-pc-windows-msvc.zip",
-            "hash": "f80ec5eb694b702024f5a5ae99662482fe0c3742c3f2032f2609a2e64ec11d80"
+            "hash": "da34ced1aa685deb6cf4bb653dcc737e3e77331eac8f7cd352010e8304e519bc"
         }
     },
     "bin": "chr.exe",
