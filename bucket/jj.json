@@ -1,0 +1,21 @@
+{
+    "version": "1.2.3",
+    "description": "JSON Stream Editor",
+    "homepage": "https://github.com/tidwall/jj",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/tidwall/jj/releases/download/v1.2.3/jj-1.2.3-windows-amd64.zip",
+            "hash": "a939a13f37253911fed7c2763c6232019520927b735532706511efa09b5ec4f5"
+        }
+    },
+    "bin": "jj.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/tidwall/jj/releases/download/v$version/jj-$version-windows-amd64.zip"
+            }
+        }
+    }
+}
