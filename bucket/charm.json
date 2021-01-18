@@ -1,0 +1,32 @@
+{
+    "version": "0.8.5",
+    "description": "Manage your Charm account and access The Charm Cloud.",
+    "homepage": "https://github.com/charmbracelet/charm",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/charmbracelet/charm/releases/download/v0.8.5/charm_0.8.5_Windows_x86_64.zip",
+            "hash": "993917bc859e21d16c968ad45affe166c98a8dc7dfae3643ea9089239301c636"
+        },
+        "32bit": {
+            "url": "https://github.com/charmbracelet/charm/releases/download/v0.8.5/charm_0.8.5_Windows_i386.zip",
+            "hash": "39e5658c445a97990fd78ee9b93f504b8ed0737c277f8210490cb9b28f75ca3a"
+        }
+    },
+    "bin": "charm.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/charmbracelet/charm/releases/download/v$version/charm_$version_Windows_x86_64.zip"
+            },
+            "32bit": {
+                "url": "https://github.com/charmbracelet/charm/releases/download/v$version/charm_$version_Windows_i386.zip"
+            }
+        },
+        "hash": {
+            "url": "https://github.com/charmbracelet/charm/releases/download/v$version/checksums.txt",
+            "mode": "extract"
+        }
+    }
+}
