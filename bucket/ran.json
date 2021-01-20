@@ -6,11 +6,11 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/m3ng9i/ran/releases/download/v0.1.5/ran_windows_amd64.exe.zip",
-            "hash": "sha1:8ba54435ee08d9e01d34afcf8a3cf2dca4d665bd"
+            "hash": "sha1:b3a0a04f3427b78359a47c42b1793e10e3a62694"
         },
         "32bit": {
             "url": "https://github.com/m3ng9i/ran/releases/download/v0.1.5/ran_windows_386.exe.zip",
-            "hash": "sha1:8ba54435ee08d9e01d34afcf8a3cf2dca4d665bd"
+            "hash": "sha1:cc2c7694d01e3689a18e22cb87ed27aa768b91dd"
         }
     },
     "pre_install": "Rename-Item \"$dir\\ran*.exe\" \"$dir\\ran.exe\"",
@@ -22,14 +22,14 @@
                 "url": "https://github.com/m3ng9i/ran/releases/download/v$version/ran_windows_amd64.exe.zip",
                 "hash": {
                     "url": "https://github.com/m3ng9i/ran/releases/tag/v$version",
-                    "regex": "ran_windows_amd64\\.exe\\.zip[\\w\\W]*$sha1"
+                    "regex": "ran_windows_amd64\\.exe\\.zip[\\w\\W]*?$sha1"
                 }
             },
             "32bit": {
                 "url": "https://github.com/m3ng9i/ran/releases/download/v$version/ran_windows_386.exe.zip",
                 "hash": {
                     "url": "https://github.com/m3ng9i/ran/releases/tag/v$version",
-                    "regex": "ran_windows_386\\.exe\\.zip[\\w\\W]*$sha1"
+                    "regex": "ran_windows_386\\.exe\\.zip[\\w\\W]*?$sha1"
                 }
             }
         }
