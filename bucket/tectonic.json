@@ -11,8 +11,8 @@
     },
     "bin": "tectonic.exe",
     "checkver": {
-        "url": "https://github.com/tectonic-typesetting/tectonic/releases",
-        "re": "tectonic@([\\d.]+)"
+        "url": "https://tectonic-typesetting.github.io/en-US/",
+        "re": "Install Tectonic.*?([\\d.]+)"
     },
     "autoupdate": {
         "architecture": {

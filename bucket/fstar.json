@@ -11,7 +11,8 @@
     },
     "bin": "bin\\fstar.exe",
     "checkver": {
-        "github": "https://github.com/FStarLang/FStar"
+        "url": "https://github.com/FStarLang/FStar/releases",
+        "regex": "V([\\d.]+(-[a-z\\d]+)?)\/"
     },
     "autoupdate": {
         "architecture": {
