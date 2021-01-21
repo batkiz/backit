@@ -21,7 +21,7 @@
         "architecture": {
             "64bit": {
                 "url": "https://github.com/soul-lang/SOUL/releases/download/$version/binaries-windows-x64.zip",
-                "extract_dir": "x64"
+                "extract_dir": "windows/x64"
             }
         }
     }
