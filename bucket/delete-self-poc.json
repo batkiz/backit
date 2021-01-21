@@ -1,0 +1,28 @@
+{
+    "version": "1.0",
+    "description": "A way to delete a locked, or current running executable, on disk.",
+    "homepage": "https://github.com/LloydLabs/delete-self-poc",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/LloydLabs/delete-self-poc/releases/download/1.0/ds_x64.exe#/ds.exe",
+            "hash": "2788c43f4cdffb40e57af6655d3121720ff552915b42a65b5df97d2e22bf6bc4"
+        },
+        "32bit": {
+            "url": "https://github.com/LloydLabs/delete-self-poc/releases/download/1.0/ds_x86.exe#/ds.exe",
+            "hash": "7c1edd7da9f488cc6ba673e27edb7549bd7fd6119302bbdcd68ae69450dac233"
+        }
+    },
+    "bin": "ds.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/LloydLabs/delete-self-poc/releases/download/$version/ds_x64.exe#/ds.exe"
+            },
+            "32bit": {
+                "url": "https://github.com/LloydLabs/delete-self-poc/releases/download/$version/ds_x86.exe#/ds.exe"
+            }
+        }
+    }
+}
