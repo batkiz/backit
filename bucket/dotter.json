@@ -1,10 +1,10 @@
 {
-    "version": "0.11.0",
+    "version": "0.11.1",
     "description": "A dotfile manager and templater written in rust",
     "homepage": "https://github.com/SuperCuber/dotter",
     "license": "Unlicense",
-    "url": "https://github.com/SuperCuber/dotter/releases/download/v0.11.0/dotter.exe",
-    "hash": "ccc8f688942b50717bb125359232dcdd06c70231e5b817c556413ae73eab9f15",
+    "url": "https://github.com/SuperCuber/dotter/releases/download/v0.11.1/dotter.exe",
+    "hash": "4aabbe73d97fd5565fc7ba2d9a3b554de9354b28f6058af009917c0fb551ea43",
     "bin": "dotter.exe",
     "checkver": "github",
     "autoupdate": {
