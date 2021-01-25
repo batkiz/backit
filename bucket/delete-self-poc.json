@@ -1,16 +1,16 @@
 {
-    "version": "1.0",
+    "version": "1.1",
     "description": "A way to delete a locked, or current running executable, on disk.",
     "homepage": "https://github.com/LloydLabs/delete-self-poc",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/LloydLabs/delete-self-poc/releases/download/1.0/ds_x64.exe#/ds.exe",
-            "hash": "2788c43f4cdffb40e57af6655d3121720ff552915b42a65b5df97d2e22bf6bc4"
+            "url": "https://github.com/LloydLabs/delete-self-poc/releases/download/v1.1/ds_x64.exe#/ds.exe",
+            "hash": "9f81f9a14305f942bc713a4e80cd6f24936acee02519a8a3813c508c639681f0"
         },
         "32bit": {
-            "url": "https://github.com/LloydLabs/delete-self-poc/releases/download/1.0/ds_x86.exe#/ds.exe",
-            "hash": "7c1edd7da9f488cc6ba673e27edb7549bd7fd6119302bbdcd68ae69450dac233"
+            "url": "https://github.com/LloydLabs/delete-self-poc/releases/download/v1.1/ds_x86.exe#/ds.exe",
+            "hash": "30ad2dc6cebbd7bca890d17c4fbca96cd4e41addc31bc15ccbeab28966e5a1ec"
         }
     },
     "bin": "ds.exe",
@@ -18,10 +18,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/LloydLabs/delete-self-poc/releases/download/$version/ds_x64.exe#/ds.exe"
+                "url": "https://github.com/LloydLabs/delete-self-poc/releases/download/v$version/ds_x64.exe#/ds.exe"
             },
             "32bit": {
-                "url": "https://github.com/LloydLabs/delete-self-poc/releases/download/$version/ds_x86.exe#/ds.exe"
+                "url": "https://github.com/LloydLabs/delete-self-poc/releases/download/v$version/ds_x86.exe#/ds.exe"
             }
         }
     }
