@@ -1,12 +1,12 @@
 {
-    "version": "0.5.0",
+    "version": "0.6.0",
     "description": "Yet another HTTPie clone in Rust.",
     "homepage": "https://github.com/ducaale/ht",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/ducaale/ht/releases/download/v0.5.0/ht-x86_64-pc-windows-msvc.zip",
-            "hash": "eca94991b75ac4cb718f6c1449ae521ea692c73ab5ee1ff326e28636f3314c1a"
+            "url": "https://github.com/ducaale/ht/releases/download/v0.6.0/ht-x86_64-pc-windows-msvc.zip",
+            "hash": "78055b883074f8c71a7848c5e58b2c9c720990e130453994b2b44ed7808a8121"
         }
     },
     "bin": "ht.exe",
