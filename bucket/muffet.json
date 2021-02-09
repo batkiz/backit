@@ -1,16 +1,16 @@
 {
-    "version": "2.3.2",
+    "version": "2.4.0",
     "description": "Fast website link checker in Go",
     "homepage": "https://github.com/raviqqe/muffet",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/raviqqe/muffet/releases/download/v2.3.2/muffet_2.3.2_Windows_x86_64.tar.gz",
-            "hash": "706af03d3d88f2ec2028cea4e617d356c409d995b5111bd809248c31c97e9afd"
+            "url": "https://github.com/raviqqe/muffet/releases/download/v2.4.0/muffet_2.4.0_Windows_x86_64.tar.gz",
+            "hash": "b9ca72d251fa5a0f56a1b022030aa890da263a4440a2a80b15240c9f0adf03a2"
         },
         "32bit": {
-            "url": "https://github.com/raviqqe/muffet/releases/download/v2.3.2/muffet_2.3.2_Windows_i386.tar.gz",
-            "hash": "3bbdc8360b88c55d47a929d44457834bc3ce77991a7718d44ac389e88054956b"
+            "url": "https://github.com/raviqqe/muffet/releases/download/v2.4.0/muffet_2.4.0_Windows_i386.tar.gz",
+            "hash": "1e9de0744f44af7177da6dacd3ec41d09d53219ae466105514d9b71aa2a92d4d"
         }
     },
     "bin": "muffet.exe",
