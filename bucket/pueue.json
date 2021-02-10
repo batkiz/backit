@@ -6,12 +6,12 @@
     "architecture": {
         "64bit": {
             "url": [
-                "https://github.com/Nukesor/pueue/releases/download/v0.12.0/pueue-windows-x86_64.exe#/pueue.exe https://github.com/Nukesor/pueue/releases/download/v0.12.0/pueued-windows-x86_64.exe#/pueued.exe",
-                "https://github.com/Nukesor/pueue/releases/download/v0.8.1/pueued-windows-x86_64.exe#/pueued.exe"
+                "https://github.com/Nukesor/pueue/releases/download/v0.12.0/pueue-windows-x86_64.exe#/pueue.exe",
+                "https://github.com/Nukesor/pueue/releases/download/v0.12.0/pueued-windows-x86_64.exe#/pueued.exe"
             ],
             "hash": [
                 "407836dcbf8916de8e08440c2f9134ecb3d0f981daebf61382c4eaa07beb5f63",
-                "89227954508257d6fb936d560b0accc9bd282dfea8a769fc00b321a0c62fc2dc"
+                "56ad78e1c9d7722f797caa91377a29a2b6daaab7116c27cb9ca19080296cc4ec"
             ]
         }
     },
