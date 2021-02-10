@@ -1,16 +1,16 @@
 {
-    "version": "0.8.5",
+    "version": "0.8.6",
     "description": "Manage your Charm account and access The Charm Cloud.",
     "homepage": "https://github.com/charmbracelet/charm",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/charmbracelet/charm/releases/download/v0.8.5/charm_0.8.5_Windows_x86_64.zip",
-            "hash": "993917bc859e21d16c968ad45affe166c98a8dc7dfae3643ea9089239301c636"
+            "url": "https://github.com/charmbracelet/charm/releases/download/v0.8.6/charm_0.8.6_Windows_x86_64.zip",
+            "hash": "a83b7df35e1a56510a2f0bc8383d910572a590a90c199ac7d37bbff1c023b9db"
         },
         "32bit": {
-            "url": "https://github.com/charmbracelet/charm/releases/download/v0.8.5/charm_0.8.5_Windows_i386.zip",
-            "hash": "39e5658c445a97990fd78ee9b93f504b8ed0737c277f8210490cb9b28f75ca3a"
+            "url": "https://github.com/charmbracelet/charm/releases/download/v0.8.6/charm_0.8.6_Windows_i386.zip",
+            "hash": "a4f275e7e4a3f47bfe54ab4707012b641d8ecd7c1f657fef1418b4fcf1c917a9"
         }
     },
     "bin": "charm.exe",
