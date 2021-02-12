@@ -13,7 +13,9 @@
             "hash": "63b96dfa3e31b6d885ac21b8df427f1cd2cd747916db5873a120855f1829dc81"
         }
     },
-    "bin": "pwsh.exe",
+    "env_add_path":[
+        "pwsh.exe"
+    ],
     "shortcuts": [
         [
             "pwsh.exe",
@@ -34,5 +36,8 @@
             "url": "https://github.com/PowerShell/PowerShell/releases/tag/v$version/",
             "find": "$basename\\s*<ul>\\s*<li>([A-Fa-f\\d]{64})"
         }
-    }
+    },
+    "notes":[
+        "This version don't use a shim, but add pwsh to env."
+    ]
 }
