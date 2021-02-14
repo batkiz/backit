@@ -1,12 +1,12 @@
 {
-    "version": "7.9",
+    "version": "8.0",
     "homepage": "https://racket-lang.org",
     "license": "LGPL-3.0-or-later",
     "description": "Racket minimal on Chez Scheme.",
     "architecture": {
         "64bit": {
-            "url": "https://mirror.racket-lang.org/releases/7.9/installers/racket-minimal-7.9-x86_64-win32-cs.exe#/dl.7z",
-            "hash": "sha1:52bb4618f1184e380e8a7a940a76d77c9a6c3875"
+            "url": "https://mirror.racket-lang.org/releases/8.0/installers/racket-minimal-8.0-x86_64-win32-cs.exe#/dl.7z",
+            "hash": "sha1:a45410396ae1ad4291d26b4b9b8ab99f2b4641a2"
         }
     },
     "bin": [
