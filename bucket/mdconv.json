@@ -1,0 +1,22 @@
+{
+    "version": "0.8",
+    "description": "A CLI markdown converter written in Go.",
+    "homepage": "https://github.com/Palexer/mdconv",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/Palexer/mdconv/releases/download/v0.8/mdconv-win-amd64.zip",
+            "hash": "1d05040bd2b580911f24538333f445b8f171b4bbc4fb5e7c7c8f8adfb9049d09"
+        }
+    },
+    "depends": "wkhtmltopdf",
+    "bin": "mdconv.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/Palexer/mdconv/releases/download/v$version/mdconv-win-amd64.zip"
+            }
+        }
+    }
+}
