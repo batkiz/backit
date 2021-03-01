@@ -1,12 +1,12 @@
 {
-    "version": "0.12.1",
+    "version": "0.12.2",
     "description": "Pure Go implementation of jq",
     "homepage": "https://github.com/itchyny/gojq",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/itchyny/gojq/releases/download/v0.12.1/gojq_v0.12.1_windows_amd64.zip",
-            "hash": "d932ae450fe0b2f2d583833de34f1e5bb1933e0d62990d2980a4fb9b4f5bba92"
+            "url": "https://github.com/itchyny/gojq/releases/download/v0.12.2/gojq_v0.12.2_windows_amd64.zip",
+            "hash": "470cd067512f502611ad436b9c9adf477d9379b631424a220a91e0cb0bd335a4"
         }
     },
     "bin": "gojq.exe",
