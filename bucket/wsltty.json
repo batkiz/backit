@@ -1,16 +1,16 @@
 {
-    "version": "3.4.4",
+    "version": "3.4.5",
     "description": "Mintty as a terminal for WSL (Windows Subsystem for Linux).",
     "homepage": "https://github.com/mintty/wsltty",
     "license": "GPL-3.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/mintty/wsltty/releases/download/3.4.4/wsltty-3.4.4-install-x86_64.exe#/dl.7z",
-            "hash": "52a30a16de9655f6df39df952bff5e8941b2c98509a368384673de12e2fc357c"
+            "url": "https://github.com/mintty/wsltty/releases/download/3.4.5/wsltty-3.4.5-x86_64-install.exe#/dl.7z",
+            "hash": "2e6e49f0c6910afd5240415b5f56e4bc135216dd8f04885dadae9a6ef3a539f6"
         },
         "32bit": {
-            "url": "https://github.com/mintty/wsltty/releases/download/3.4.4/wsltty-3.4.4-install-i686.exe#/dl.7z",
-            "hash": "a402e90184d434dde116bb59ecfc1cef021192a673da00e2633abd324c872926"
+            "url": "https://github.com/mintty/wsltty/releases/download/3.4.5/wsltty-3.4.5-i686-install.exe#/dl.7z",
+            "hash": "18826540512c70c040a7b7f14b773e6574fe9f9068d878107489c7e13e3e9299"
         }
     },
     "extract_to": "installer",
@@ -34,10 +34,10 @@
     "autoupdate": {
         "architecture": {
             "32bit": {
-                "url": "https://github.com/mintty/wsltty/releases/download/$version/wsltty-$version-install-i686.exe#/dl.7z"
+                "url": "https://github.com/mintty/wsltty/releases/download/$version/wsltty-$version-i686-install.exe#/dl.7z"
             },
             "64bit": {
-                "url": "https://github.com/mintty/wsltty/releases/download/$version/wsltty-$version-install-x86_64.exe#/dl.7z"
+                "url": "https://github.com/mintty/wsltty/releases/download/$version/wsltty-$version-x86_64-install.exe#/dl.7z"
             }
         }
     }
