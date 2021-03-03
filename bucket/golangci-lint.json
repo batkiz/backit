@@ -1,16 +1,16 @@
 {
-    "version": "1.37.1",
+    "version": "1.38.0",
     "description": "Fast linters Runner for Go",
     "homepage": "https://golangci-lint.run/",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/golangci/golangci-lint/releases/download/v1.37.1/golangci-lint-1.37.1-windows-amd64.zip",
-            "hash": "a11b73bebd0ab6f2161d3677a5c63883001bf489aeebc494a6aaaead6addd161"
+            "url": "https://github.com/golangci/golangci-lint/releases/download/v1.38.0/golangci-lint-1.38.0-windows-amd64.zip",
+            "hash": "1d3ecd6d78ed956ab237911137443d87777d60213af79c8f15a8c622c70199b3"
         },
         "32bit": {
-            "url": "https://github.com/golangci/golangci-lint/releases/download/v1.37.1/golangci-lint-1.37.1-windows-386.zip",
-            "hash": "368226de6220c9a079915be02276f569770342e119e64927930cfd865357a19f"
+            "url": "https://github.com/golangci/golangci-lint/releases/download/v1.38.0/golangci-lint-1.38.0-windows-386.zip",
+            "hash": "96129edacf76d0a89ae6f38c8ea64dcd6264d24d13e28219fd06002ab8a1e40c"
         }
     },
     "bin": "golangci-lint.exe",
