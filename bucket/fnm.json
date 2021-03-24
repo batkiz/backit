@@ -2,9 +2,9 @@
     "homepage": "https://fnm.vercel.app",
     "description": "Fast and simple Node.js version manager, built in Rust",
     "license": " GPL-3.0-only",
-    "version": "1.23.1",
-    "url": "https://github.com/Schniz/fnm/releases/download/v1.23.1/fnm-windows.zip",
-    "hash": "e4df3c90ee8eab4cafe7cde7e6d324e46fa38ca77e865d5f558be0386abaa540",
+    "version": "1.23.2",
+    "url": "https://github.com/Schniz/fnm/releases/download/v1.23.2/fnm-windows.zip",
+    "hash": "d76b6330abdbb7fd29e745982aaaf119cf5f4138c154d6c2388d4a5777ea7683",
     "bin": "fnm.exe",
     "checkver": {
         "github": "https://github.com/Schniz/fnm"
