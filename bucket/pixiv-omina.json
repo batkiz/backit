@@ -1,10 +1,10 @@
 {
-    "version": "0.7.7",
+    "version": "0.8.0",
     "description": "Pixiv Omina is a software for downloading artworks and comics from Pixiv and Pixiv Comic",
     "homepage": "https://github.com/leoding86/pixiv-omina",
     "license": "MPL-2.0",
-    "url": "https://github.com/leoding86/pixiv-omina/releases/download/0.7.7/Pixiv.Omina.Setup.0.7.7.exe#/dl.7z",
-    "hash": "sha1:e960254bcb393d21303bd80af5d055dd203c913e",
+    "url": "https://github.com/leoding86/pixiv-omina/releases/download/0.8.0/Pixiv.Omina.Setup.0.8.0.exe#/dl.7z",
+    "hash": "sha1:f088e4d270987437972bb569d0b172d670ad808b",
     "pre_install": [
         "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-32.7z\" \"$dir\"",
         "Remove-Item \"$dir\\`$*\", \"$dir\\Uninst*\" -Force -Recurse"
