@@ -1,15 +1,21 @@
 {
     "homepage": "https://github.com/kotatogram/kotatogram-desktop",
-    "version": "1.3.9",
+    "version": "1.4",
     "description": "Experimental Telegram Desktop fork.",
     "license": {
         "identifier": "GPL-3.0-with-OpenSSL-exception",
         "url": "https://github.com/kotatogram/kotatogram-desktop/blob/dev/LICENSE"
     },
-    "url": "https://github.com/kotatogram/kotatogram-desktop/releases/download/k1.3.9/1.3.9.zip",
-    "hash": "790ce588ba3b65256aa138c89da660b09b2ada19e11b1b272d37b4d6460b4866",
-    "extract_dir": "1.3.9\\Windows\\bin",
-    "pre_install": "Remove-Item \"$dir\\$version\" -Recurse",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/kotatogram/kotatogram-desktop/releases/download/k1.4/1.4-win64-portable.zip",
+            "hash": "9cb0b2deb6d0ff5112e2f56285608445ddd05385e8783a20b5a3b9ed1b43a5bf"
+        },
+        "32bit": {
+            "url": "https://github.com/kotatogram/kotatogram-desktop/releases/download/k1.4/1.4-win32-portable.zip",
+            "hash": "1e4163b485ab835a7767e9d41292352a909a9ec69379d947131c0ac134890b59"
+        }
+    },
     "bin": "Kotatogram.exe",
     "shortcuts": [
         [
@@ -23,11 +29,19 @@
         "regex": "Version ([\\d.]+)"
     },
     "autoupdate": {
-        "url": "https://github.com/kotatogram/kotatogram-desktop/releases/download/k$version/$version.zip",
-        "hash": {
-            "url": "https://github.com/kotatogram/kotatogram-desktop/releases/tag/k$version/",
-            "regex": "Portable(.|\\s)*?<code>($sha256)"
-        },
-        "extract_dir": "$version\\Windows\\bin"
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/kotatogram/kotatogram-desktop/releases/download/k$version/$version-win64-portable.zip",
+                "hash": {
+                    "url": "https://github.com/kotatogram/kotatogram-desktop/releases/download/k$version/$version-win64-portable.zip.sha256"
+                }
+            },
+            "32bit": {
+                "url": "https://github.com/kotatogram/kotatogram-desktop/releases/download/k$version/$version-win32-portable.zip",
+                "hash": {
+                    "url": "https://github.com/kotatogram/kotatogram-desktop/releases/download/k$version/$version-win32-portable.zip.sha256"
+                }
+            }
+        }
     }
 }
