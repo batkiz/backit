@@ -1,16 +1,16 @@
 {
-    "version": "11.0.1",
+    "version": "12.0.0",
     "description": "Collection of modular and reusable compiler and toolchain technologies.",
     "homepage": "https://www.llvm.org",
     "license": "NCSA",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/llvm/llvm-project/releases/download/llvmorg-11.0.1/LLVM-11.0.1-win64.exe#/dl.7z",
-            "hash": "d17bd0e556115c30ff45e30a3f9a623af89ad6a345a5df3ac47aa8b9eabab9a7"
+            "url": "https://github.com/llvm/llvm-project/releases/download/llvmorg-12.0.0/LLVM-12.0.0-win64.exe#/dl.7z",
+            "hash": "8426d57f2af2bf07f80014bfd359e87ed10f5521a236a10cfe9fc4870d1b1b25"
         },
         "32bit": {
-            "url": "https://github.com/llvm/llvm-project/releases/download/llvmorg-11.0.1/LLVM-11.0.1-win32.exe#/dl.7z",
-            "hash": "76886461d2638ed16625a5e2dee35eae2202814fa9f9d99bd983f12d50f581ae"
+            "url": "https://github.com/llvm/llvm-project/releases/download/llvmorg-12.0.0/LLVM-12.0.0-win32.exe#/dl.7z",
+            "hash": "bbb264bc9c8300c8f98a129050d94127cba8370ee26e4f9b1fe9cced03b1f638"
         }
     },
     "pre_install": "Remove-Item \"$dir\\`$*\" -Recurse",
