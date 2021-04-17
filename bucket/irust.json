@@ -1,13 +1,13 @@
 {
-    "version": "1.3.1",
+    "version": "1.3.2",
     "description": "Cross Platform Rust Repl",
     "homepage": "https://github.com/sigmaSd/IRust",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/sigmaSd/IRust/releases/download/1.3.1/irust-1.3.1-x86_64-pc-windows-msvc.zip",
-            "hash": "f409f288cab50f14a53f9a884a49aeec17db6749cd77038293ba1a3b816e8948",
-            "extract_dir": "irust-1.3.1-x86_64-pc-windows-msvc"
+            "url": "https://github.com/sigmaSd/IRust/releases/download/1.3.2/irust-1.3.2-x86_64-pc-windows-msvc.zip",
+            "hash": "dc7478aae266de18d51c9b8bfc4118eca053a1ffd94dc8996c78458df81dd60d",
+            "extract_dir": "irust-1.3.2-x86_64-pc-windows-msvc"
         }
     },
     "bin": "irust.exe",
