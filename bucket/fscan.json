@@ -1,0 +1,28 @@
+{
+    "version": "1.5.1",
+    "description": "一款内网综合扫描工具，方便一键自动化、全方位漏扫扫描。",
+    "homepage": "https://github.com/shadow1ng/fscan",
+    "license": "Unknown",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/shadow1ng/fscan/releases/download/1.5.1/fscan_upx64.exe#/fscan.exe",
+            "hash": "3b4e2493738db837a2af8916aab68b0cea18f07c63e31096ccda6fd83c3da9f2"
+        },
+        "32bit": {
+            "url": "https://github.com/shadow1ng/fscan/releases/download/1.5.1/fscan_upx32.exe#/fscan.exe",
+            "hash": "d584c7972f2ddfc37e8f14dd82f13298797a8a75f74ebd150347b8e819a98f93"
+        }
+    },
+    "bin": "fscan.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/shadow1ng/fscan/releases/download/$version/fscan_upx64.exe#/fscan.exe"
+            },
+            "32bit": {
+                "url": "https://github.com/shadow1ng/fscan/releases/download/$version/fscan_upx32.exe#/fscan.exe"
+            }
+        }
+    }
+}
