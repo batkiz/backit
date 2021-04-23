@@ -1,0 +1,29 @@
+{
+    "version": "1.14",
+    "description": "一款轻量级的资产发现工具，可针对IP/IP段或资产列表进行端口扫描以及TCP指纹识别和Banner抓取，在不发送更多的数据包的情况下尽可能的获取端口更多信息。",
+    "homepage": "https://github.com/lcvvvv/kscan",
+    "license": "Unknown",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/lcvvvv/kscan/releases/download/v1.14/kscan_v1.14_windows_amd64.zip",
+            "hash": "c17e46d32dc7ae3708c2e4583aac9380ce1b26eb2e103e695fc8e5fe924abf8e"
+        },
+        "32bit": {
+            "url": "https://github.com/lcvvvv/kscan/releases/download/v1.14/kscan_v1.14_windows_386.zip",
+            "hash": "d0ea5b8e261c5dacefeba7d3eda734215fb9a0d4be4f2b3b09d5a7b0a2d64dc2"
+        }
+    },
+    "pre_install": "Rename-Item \"$dir\\kscan*.exe\" \"$dir\\kscan.exe\"",
+    "bin": "kscan.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/lcvvvv/kscan/releases/download/v$version/kscan_v$version_windows_amd64.zip"
+            },
+            "32bit": {
+                "url": "https://github.com/lcvvvv/kscan/releases/download/v$version/kscan_v$version_windows_386.zip"
+            }
+        }
+    }
+}
