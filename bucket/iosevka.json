@@ -1,9 +1,9 @@
 {
-    "version": "6.1.1",
+    "version": "6.1.2",
     "license": "MIT",
     "homepage": "https://github.com/be5invis/Iosevka",
-    "url": "https://github.com/be5invis/Iosevka/releases/download/v6.1.1/ttc-iosevka-6.1.1.zip",
-    "hash": "9957c109f5ca7197dc51787bc921a6ca06260fd5595ef67fa2173966b9761c22",
+    "url": "https://github.com/be5invis/Iosevka/releases/download/v6.1.2/ttc-iosevka-6.1.2.zip",
+    "hash": "4300c28d7346e6f7d6226edbd0c617d0db7ef28340e444416f35bd103dd845fc",
     "installer": {
         "script": [
             "$Destination = (New-Object -ComObject Shell.Application).Namespace(0x14)",
