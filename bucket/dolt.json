@@ -1,12 +1,12 @@
 {
-    "version": "0.26.2",
+    "version": "0.26.3",
     "homepage": "https://github.com/dolthub/dolt",
     "description": "Dolt is a SQL database that you can fork, clone, branch, merge, push and pull just like a git repository.",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/dolthub/dolt/releases/download/v0.26.2/dolt-windows-amd64.zip",
-            "hash": "577f63ebc5547497abd37dc5ea62ef0c84eeb637ec0c2b28bdf237fa1bf2759b",
+            "url": "https://github.com/dolthub/dolt/releases/download/v0.26.3/dolt-windows-amd64.zip",
+            "hash": "fb0aa9175fea4ba3fe65df1af9fc1bac8b21a293d7ff70caf496eb00bfb30a47",
             "extract_dir": "dolt-windows-amd64"
         }
     },
