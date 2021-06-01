@@ -1,9 +1,9 @@
 {
-    "version": "0.32.2",
+    "version": "0.32.3",
     "license": "MIT",
     "homepage": "https://github.com/be5invis/Sarasa-Gothic",
-    "url": "https://github.com/be5invis/Sarasa-Gothic/releases/download/v0.32.2/sarasa-gothic-ttc-0.32.2.7z",
-    "hash": "8fc782c6323ee9d59c4021d523b058d7e73208c17d843965630c4602d07ab34c",
+    "url": "https://github.com/be5invis/Sarasa-Gothic/releases/download/v0.32.3/sarasa-gothic-ttc-0.32.3.7z",
+    "hash": "cc12ab5416a093353a000bee8fe38c6603cbdade47029d6a2f092cd85c762308",
     "installer": {
         "script": [
             "$Destination = (New-Object -ComObject Shell.Application).Namespace(0x14)",
