@@ -1,12 +1,12 @@
 {
-    "version": "0.5.1",
+    "version": "0.5.2",
     "description": "A modernized, complete, self-contained TeX/LaTeX engine, powered by XeTeX and TeXLive.",
     "homepage": "https://tectonic-typesetting.github.io/",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/tectonic-typesetting/tectonic/releases/download/tectonic%400.5.1/tectonic-0.5.1-x86_64-pc-windows-msvc.zip",
-            "hash": "f12a074c6997edf01738fc1343040ff361e852ffef6c6deca58f21e4e3a29bb2"
+            "url": "https://github.com/tectonic-typesetting/tectonic/releases/download/tectonic%400.5.2/tectonic-0.5.2-x86_64-pc-windows-msvc.zip",
+            "hash": "a5eec0edff105b85096a8a69fa726cb0f5f28776bd6e4f99a81e29117ebf2943"
         }
     },
     "bin": "tectonic.exe",
