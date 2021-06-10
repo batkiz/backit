@@ -1,5 +1,5 @@
 {
-    "version": "1.16rc1",
+    "version": "1.17beta1",
     "description": "An open source programming language that makes it easy to build simple, reliable, and efficient software.",
     "homepage": "https://golang.org",
     "license": "BSD-3-Clause",
@@ -10,12 +10,12 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://dl.google.com/go/go1.16rc1.windows-amd64.zip",
-            "hash": "ff765c31cf321b431f9a11ec42e61d42ec87d56333c847f5a87d30e01aaed3df"
+            "url": "https://dl.google.com/go/go1.17beta1.windows-amd64.zip",
+            "hash": "7a2154c1a35d3e6441e649c81a30817f8f669aea9029f5d1010e1a264dfd264f"
         },
         "32bit": {
-            "url": "https://dl.google.com/go/go1.16rc1.windows-386.zip",
-            "hash": "8680379415ccb389191e2c12b62290e0b772718dc9f34e48b187b6825c39cc3e"
+            "url": "https://dl.google.com/go/go1.17beta1.windows-386.zip",
+            "hash": "da7ca16de51e8fbc9a982216361959d245fd83479d602de214667e8319279c6b"
         }
     },
     "extract_dir": "go",
