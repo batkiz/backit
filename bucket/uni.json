@@ -1,12 +1,12 @@
 {
-    "version": "2.2.0",
+    "version": "2.2.1",
     "description": "Query the Unicode database from the commandline, with good support for emojis",
     "homepage": "https://github.com/arp242/uni",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/arp242/uni/releases/download/v2.2.0/uni-v2.2.0-windows-amd64.exe.gz",
-            "hash": "2f6a79db0159d9a4bb20e928103bec6150d51b60008696822cb964a2503d186e"
+            "url": "https://github.com/arp242/uni/releases/download/v2.2.1/uni-v2.2.1-windows-amd64.exe.gz",
+            "hash": "fd557c1ceb3f212e56721859b515993d67114c754b72259c48411d58cd967430"
         }
     },
     "pre_install": "Rename-Item \"$dir\\uni*.exe\" \"$dir\\uni.exe\"",
