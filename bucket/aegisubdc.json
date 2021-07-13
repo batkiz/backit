@@ -1,13 +1,13 @@
 {
     "homepage": "https://github.com/Ristellise/AegisubDC",
     "description": "Aegisub, Daydream Cafe Edition",
-    "version": "9212",
+    "version": "9213",
     "license": {
         "identifier": "LICENSE",
         "url": "https://github.com/Ristellise/AegisubDC/blob/master/LICENCE"
     },
-    "url": "https://github.com/Ristellise/AegisubDC/releases/download/9212/Aegisub-9212C-Barkhorn.zip",
-    "hash": "a5151eabff3e99bfb21ddb2999f0e0c874c3b4440e942371f4c31440189b3db1",
+    "url": "https://github.com/Ristellise/AegisubDC/releases/download/9213/Aegisub-9213-Blue-Canvas.zip",
+    "hash": "96b2941e4fc15c580751a8b9af149a53dc95ca478ba1c626e3b80982d2a2908c",
     "shortcuts": [
         [
             "aegisub.exe",
