@@ -1,16 +1,16 @@
 {
-    "version": "2.17.0",
+    "version": "2.17.1",
     "description": "Web File Browser",
     "homepage": "https://github.com/filebrowser/filebrowser",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/filebrowser/filebrowser/releases/download/v2.17.0/windows-amd64-filebrowser.zip",
-            "hash": "005023ff0e63b90b20d5eb8fb278afe50f69e30f5bc86c66a8e9349540cf9972"
+            "url": "https://github.com/filebrowser/filebrowser/releases/download/v2.17.1/windows-amd64-filebrowser.zip",
+            "hash": "1827d3684f74601edd7416137d56786c7a9fd1e9d33d4ac457c7b644b038931e"
         },
         "32bit": {
-            "url": "https://github.com/filebrowser/filebrowser/releases/download/v2.17.0/windows-386-filebrowser.zip",
-            "hash": "f2edb2352e39cfebadf0cf331aaa29e910beb7c09ee6339ec2469a3faa0e2daf"
+            "url": "https://github.com/filebrowser/filebrowser/releases/download/v2.17.1/windows-386-filebrowser.zip",
+            "hash": "91cba66af35577682944277f8a84483ca8a0ebe090de051c46582b132cee791e"
         }
     },
     "bin": "filebrowser.exe",
