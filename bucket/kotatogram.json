@@ -1,6 +1,6 @@
 {
     "homepage": "https://github.com/kotatogram/kotatogram-desktop",
-    "version": "1.4.2",
+    "version": "1.4.3",
     "description": "Experimental Telegram Desktop fork.",
     "license": {
         "identifier": "GPL-3.0-with-OpenSSL-exception",
@@ -8,12 +8,12 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/kotatogram/kotatogram-desktop/releases/download/k1.4.2/1.4.2-win64-portable.zip",
-            "hash": "cd9fb49d468262f754d576977254233d5a6f055433de972ffea2383dfb8601e3"
+            "url": "https://github.com/kotatogram/kotatogram-desktop/releases/download/k1.4.3/1.4.3-win64-portable.zip",
+            "hash": "ea6f6ecc0e0270cf63442b3373f422567aeb7cdc156ec09d753501a85230a61a"
         },
         "32bit": {
-            "url": "https://github.com/kotatogram/kotatogram-desktop/releases/download/k1.4.2/1.4.2-win32-portable.zip",
-            "hash": "d3c6bc2077d46ae0a46253afc8e09a61463be3623ccbc554ab405c9246650193"
+            "url": "https://github.com/kotatogram/kotatogram-desktop/releases/download/k1.4.3/1.4.3-win32-portable.zip",
+            "hash": "437afc48d8e6f3c44f0783572eb945ebda6836c5937f853c21eafce4af3d4745"
         }
     },
     "bin": "Kotatogram.exe",
