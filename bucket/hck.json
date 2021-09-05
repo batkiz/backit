@@ -1,10 +1,10 @@
 {
-    "version": "0.6.1",
+    "version": "0.6.2",
     "homepage": "https://github.com/sstadick/hck",
     "description": "A sharp cut(1) clone.",
     "license": "Unlicense",
-    "url": "https://github.com/sstadick/hck/releases/download/v0.6.1/hck-windows-amd64#/hck.exe",
-    "hash": "4c8296bf3f3ad8d6a69a556bab3217655b5d761d50a73f9ecde7b2cbfe488b79",
+    "url": "https://github.com/sstadick/hck/releases/download/v0.6.2/hck-windows-amd64#/hck.exe",
+    "hash": "55110910e3fd8667e139ad08188865c799ca402adc02d7454fe044780ba1f53e",
     "bin": "arc.exe",
     "checkver": "github",
     "autoupdate": {
