@@ -1,0 +1,24 @@
+{
+    "version": "2.1",
+    "homepage": "https://github.com/nkanaev/yarr",
+    "description": "yet another rss reader",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/nkanaev/yarr/releases/download/v2.1/yarr-v2.1-windows64.zip",
+            "hash": "b3f25eed044c2b841b85eecdcf3e80ea1fdfe1cf4ab2124b7e0d776dce7e52fa"
+        }
+    },
+    "bin": "yarr.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/nkanaev/yarr/releases/download/v$version/yarr-v$version-windows64.zip"
+            }
+        }
+    },
+    "notes": [
+        "the database of yarr is stored at %APPDATA%\\yarr"
+    ]
+}
