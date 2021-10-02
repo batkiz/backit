@@ -1,0 +1,37 @@
+{
+    "version": "1.0.66",
+    "description": "All your articles in one place. Beautiful.",
+    "homepage": "https://ravenreader.app/",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/hello-efficiency-inc/raven-reader/releases/download/v1.0.66/Raven-Reader-Setup-1.0.66.exe#/dl.7z",
+            "hash": "sha512:17fe8a0181f775279fda89c77963e51f4832970614f4373076ed922110bc6185465fd083b53e825d89fc3de7fb63334e88e457c119c5ddd26812879944e01fd2",
+            "pre_install": [
+                "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
+                "Remove-Item \"$dir\\`$*\", \"$dir\\Uninst*\" -Force -Recurse"
+            ]
+        }
+    },
+    "shortcuts": [
+        [
+            "Raven Reader.exe",
+            "Raven Reader"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/hello-efficiency-inc/raven-reader"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/hello-efficiency-inc/raven-reader/releases/download/v$version/Raven-Reader-Setup-$version.exe#/dl.7z"
+            }
+        },
+        "hash": {
+            "url": "https://github.com/hello-efficiency-inc/raven-reader/releases/download/v$version/latest.yml",
+            "mode": "extract",
+            "regex": "sha512: $base64"
+        }
+    }
+}
