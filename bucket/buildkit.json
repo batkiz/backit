@@ -2,11 +2,11 @@
     "homepage": "https://github.com/moby/buildkit",
     "description": "concurrent, cache-efficient, and Dockerfile-agnostic builder toolkit",
     "license": "Apache-2.0",
-    "version": "0.9.0",
+    "version": "0.9.1",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/moby/buildkit/releases/download/v0.9.0/buildkit-v0.9.0.windows-amd64.tar.gz",
-            "hash": "654706c66fe928616834b5239d6cb725bdc51603cf8907af2e9d43bc185f4f52"
+            "url": "https://github.com/moby/buildkit/releases/download/v0.9.1/buildkit-v0.9.1.windows-amd64.tar.gz",
+            "hash": "63ee9fe0ce8f77f974ca5e24134c92902e7e0279202c957f3dad7fb605d56d96"
         }
     },
     "extract_dir": "bin",
