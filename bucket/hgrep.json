@@ -1,12 +1,12 @@
 {
-    "version": "0.1.8",
+    "version": "0.1.9",
     "description": "Grep with human-friendly search output",
     "homepage": "https://github.com/rhysd/hgrep",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/rhysd/hgrep/releases/download/v0.1.8/hgrep-v0.1.8-x86_64-pc-windows-msvc.zip",
-            "hash": "6c5d418fecb8c781805d602d5a2a3e9c6cbe81e77522b56c3e95de11f17c3899"
+            "url": "https://github.com/rhysd/hgrep/releases/download/v0.1.9/hgrep-v0.1.9-x86_64-pc-windows-msvc.zip",
+            "hash": "6b9511916e630bb6c8b18b7c4e2ae3d766b9e4db14a7e085a05fc82e876b7469"
         }
     },
     "bin": "hgrep.exe",
