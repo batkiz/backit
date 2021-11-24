@@ -1,12 +1,12 @@
 {
-    "version": "2.9.2",
+    "version": "2.9.3",
     "description": "Golang security checker",
     "homepage": "https://github.com/securego/gosec",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/securego/gosec/releases/download/v2.9.2/gosec_2.9.2_windows_amd64.tar.gz",
-            "hash": "bdf069f18dd9003f18c9f6ea569332c1f3cae44f001d70387041f31356ee250d"
+            "url": "https://github.com/securego/gosec/releases/download/v2.9.3/gosec_2.9.3_windows_amd64.tar.gz",
+            "hash": "fe52cbee3b3b44632f1c233d2d6d09191f18ee27f827ce54e04c7de07cac971f"
         }
     },
     "bin": "gosec.exe",
