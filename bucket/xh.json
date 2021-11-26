@@ -1,13 +1,13 @@
 {
-    "version": "0.14.0",
+    "version": "0.14.1",
     "description": "Yet another HTTPie clone in Rust",
     "homepage": "https://github.com/ducaale/xh/",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/ducaale/xh/releases/download/v0.14.0/xh-v0.14.0-x86_64-pc-windows-msvc.zip",
-            "hash": "9812f7c9946e38cbf61587073845174994d1b6a99a1eb48d4c12387e0ff4d24e",
-            "extract_dir": "xh-v0.14.0-x86_64-pc-windows-msvc"
+            "url": "https://github.com/ducaale/xh/releases/download/v0.14.1/xh-v0.14.1-x86_64-pc-windows-msvc.zip",
+            "hash": "55335be66753f155025720c773d31239c11bce5f3c7fefc6889b31d88cd22cf3",
+            "extract_dir": "xh-v0.14.1-x86_64-pc-windows-msvc"
         }
     },
     "bin": [
