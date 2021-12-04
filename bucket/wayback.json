@@ -1,16 +1,16 @@
 {
-    "version": "0.15.1",
+    "version": "0.16.2",
     "description": "A toolkit for snapshot webpage to Internet Archive, archive.today, IPFS and beyond",
     "homepage": "https://github.com/wabarc/wayback",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/wabarc/wayback/releases/download/v0.15.1/wayback-windows-amd64-0.15.1.zip",
-            "hash": "5a21e431bde358e92f7366f9d4e6cfaf9faffa90c81328367ef30621ea0cd105"
+            "url": "https://github.com/wabarc/wayback/releases/download/v0.16.2/wayback-windows-amd64-0.16.2.zip",
+            "hash": "c880ceced0d65fd63533625105ecdd4731942bf5a2a69e04715763a53221c28b"
         },
         "32bit": {
-            "url": "https://github.com/wabarc/wayback/releases/download/v0.15.1/wayback-windows-386-0.15.1.zip",
-            "hash": "32b616a84cd521eb3f14b0312d09a2dacfe08682f1feda2e3ba73fce4de4d405"
+            "url": "https://github.com/wabarc/wayback/releases/download/v0.16.2/wayback-windows-386-0.16.2.zip",
+            "hash": "b54f9a5009636bd4fa28132a54a149522be509528451db1c56c7a853d69c232a"
         }
     },
     "pre_install": "Rename-Item \"$dir\\wayback*.exe\" \"$dir\\wayback.exe\"",
