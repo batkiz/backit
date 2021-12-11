@@ -9,7 +9,7 @@
             "hash": "e19a3d32170176467f882d058179614e8988a79b3135c3646008606d851e808f"
         }
     },
-    "extract_dir": "binaryen-version_103",
+    "extract_dir": "binaryen-",
     "env_add_path": "bin",
     "checkver": {
         "github": "https://github.com/WebAssembly/binaryen",
@@ -20,7 +20,6 @@
             "64bit": {
                 "url": "https://github.com/WebAssembly/binaryen/releases/download/version_$version/binaryen-version_$version-x86_64-windows.tar.gz"
             }
-        },
-        "extract_dir": "binaryen-version_$version"
+        }
     }
 }
