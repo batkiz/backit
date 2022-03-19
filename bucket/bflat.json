@@ -1,0 +1,24 @@
+{
+    "version": "0.0.3",
+    "description": "C# as you know it but with Go-inspired tooling that produces small, selfcontained, and native executables out of the box.",
+    "homepage": "https://github.com/bflattened/bflat",
+    "license": "AGPL-3.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/bflattened/bflat/releases/download/v0.0.3/bflat-0.0.3-windows-x64.zip",
+            "hash": "4fa8527487befcb8925f1ef15db4baa85c8a3df3fa1fd95ee121f06dabe54615"
+        }
+    },
+    "bin": "bflat.exe",
+    "checkver": {
+        "url": "https://github.com/bflattened/bflat/releases",
+        "re": "/bflattened/bflat/tree/v([\\d.]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/bflattened/bflat/releases/download/v$version/bflat-$version-windows-x64.zip"
+            }
+        }
+    }
+}
