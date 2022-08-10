@@ -1,12 +1,12 @@
 {
-    "version": "0.12.2",
+    "version": "0.12.3",
     "description": "Cranko is a release automation tool implementing the just-in-time versioning workflow.",
     "homepage": "https://github.com/pkgw/cranko",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/pkgw/cranko/releases/download/cranko@0.12.2/cranko-0.12.2-x86_64-pc-windows-msvc.zip",
-            "hash": "3888e6fc48ec29d5194cfc2f5dc66177b904bcab5f20c090c06497dba92a1fa0"
+            "url": "https://github.com/pkgw/cranko/releases/download/cranko@0.12.3/cranko-0.12.3-x86_64-pc-windows-msvc.zip",
+            "hash": "0b7152b44b7625e5c863c4099fbb31b7b7c09f4112a6075dfe7fb7eb7699e63c"
         }
     },
     "bin": "cranko.exe",
