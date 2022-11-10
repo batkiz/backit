@@ -1,12 +1,12 @@
 {
-    "version": "3.2.0",
+    "version": "3.2.1",
     "description": "Right imports sorting & code formatting tool (goimports alternative)",
     "homepage": "https://github.com/incu6us/goimports-reviser",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/incu6us/goimports-reviser/releases/download/v3.2.0/goimports-reviser_3.2.0_windows_amd64.tar.gz",
-            "hash": "c3110b066965670ee405737405987ef88201c5e7b4911fb9e3faa86c0aa7fbbc"
+            "url": "https://github.com/incu6us/goimports-reviser/releases/download/v3.2.1/goimports-reviser_3.2.1_windows_amd64.tar.gz",
+            "hash": "92641c59d8387823b7a80a538c14e64444dfbba28b663fbd7bf9bef95cc87d04"
         }
     },
     "bin": "goimports-reviser.exe",
