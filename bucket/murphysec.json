@@ -1,12 +1,12 @@
 {
-    "version": "1.13.6",
+    "version": "1.13.8",
     "homepage": "https://github.com/murphysecurity/murphysec",
     "description": "An open source tool focused on software supply chain security. 墨菲安全专注于软件供应链安全，具备专业的软件成分分析（SCA）、漏洞检测、专业漏洞库。",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/murphysecurity/murphysec/releases/download/v1.13.6/murphysec-windows-amd64.exe#/murphysec.exe",
-            "hash": "da6b2c2756bd12abab2f67202621efb539a7bf2cb71b41420da852cc1d4f66aa"
+            "url": "https://github.com/murphysecurity/murphysec/releases/download/v1.13.8/murphysec-windows-amd64.exe#/murphysec.exe",
+            "hash": "48b8dc465c70af80e4b4831a3ea034605eb8df3486c9eb09848d05202b2eb3af"
         }
     },
     "bin": "murphysec.exe",
