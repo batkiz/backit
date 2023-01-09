@@ -1,12 +1,12 @@
 {
-    "version": "0.10.1",
+    "version": "0.10.2",
     "homepage": "https://github.com/gitext-rs/git-stack",
     "description": "Stacked branch management for Git",
     "license": "Apache-2.0|MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/gitext-rs/git-stack/releases/download/v0.10.1/git-stack-v0.10.1-x86_64-pc-windows-msvc.zip",
-            "hash": "47884496f6a23a5a733bd9f75c56fd2067eb1ff51d4b67b693f9e7a36b843a5e"
+            "url": "https://github.com/gitext-rs/git-stack/releases/download/v0.10.2/git-stack-v0.10.2-x86_64-pc-windows-msvc.zip",
+            "hash": "0ab57378ee41b7768411070a73f7d44ecf648f44d4f97a32774f37b0e88f13b9"
         }
     },
     "bin": "git-stack.exe",
