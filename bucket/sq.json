@@ -1,12 +1,12 @@
 {
-    "version": "0.15.4",
+    "version": "0.24.0",
     "homepage": "https://sq.io",
     "description": "sq is a swiss army knife for data",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/neilotoole/sq/releases/download/v0.15.4/sq-windows-amd64.zip",
-            "hash": "f3e8c53d04e74b63cfa8d6a75448ef4e796c539660a269eb78308063eaaf1830"
+            "url": "https://github.com/neilotoole/sq/releases/download/v0.24.0/sq-0.24.0-windows-amd64.zip",
+            "hash": "fde5cca33981fad8a178218ff2ec0c72493243ace8fbf402640d69bc42f9e927"
         }
     },
     "bin": "sq.exe",
@@ -16,11 +16,11 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/neilotoole/sq/releases/download/v$version/sq-windows-amd64.zip"
+                "url": "https://github.com/neilotoole/sq/releases/download/v$version/sq-$version-windows-amd64.zip"
             }
         },
         "hash": {
-            "url": "https://github.com/neilotoole/sq/releases/download/v$version/sq-checksums.txt",
+            "url": "https://github.com/neilotoole/sq/releases/download/v$version/checksums.txt",
             "mode": "extract"
         }
     }
