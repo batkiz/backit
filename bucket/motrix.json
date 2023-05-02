@@ -1,16 +1,16 @@
 {
     "homepage": "https://github.com/agalwood/Motrix",
     "description": "A full-featured download manager.",
-    "version": "1.8.15",
+    "version": "1.8.16",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/agalwood/Motrix/releases/download/v1.8.15/Motrix-1.8.15-win.zip",
-            "hash": "9f5fb01c42180325ca7a40190a2ff3ced4c3771ec58a857d234275e0c106891e"
+            "url": "https://github.com/agalwood/Motrix/releases/download/v1.8.16/Motrix-1.8.16-win.zip",
+            "hash": "fac6bc84bd05183ab13fe5c839a2ea54672fde17c60366a984f37dde54e2f13e"
         },
         "32bit": {
-            "url": "https://github.com/agalwood/Motrix/releases/download/v1.8.15/Motrix-1.8.15-ia32-win.zip",
-            "hash": "03818b8def8afe53312855856a66fd4647b254db9bebf14a79b0292d83bd21cc"
+            "url": "https://github.com/agalwood/Motrix/releases/download/v1.8.16/Motrix-1.8.16-ia32-win.zip",
+            "hash": "9a871e61412606959766507122eeb0450043862079c03778bb130eff7f52077b"
         }
     },
     "bin": "Motrix.exe",
