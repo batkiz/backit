@@ -1,12 +1,12 @@
 {
-    "version": "2022.01.15",
+    "version": "2021.06.06",
     "description": "Verification system for effectful programs",
     "homepage": "https://www.fstar-lang.org/",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/FStarLang/FStar/releases/download/v2022.01.15/fstar_2022.01.15_Windows_x64.zip",
-            "hash": "66676024d6d62f8fa82c977c13b608877108c3caac8813d4edc3715152aa05ad"
+            "url": "https://github.com/FStarLang/FStar/releases/download/v2021.06.06/fstar_2021.06.06_Windows_x64.zip",
+            "hash": "8e3d2875956e201a425178a3e72170ee010f9c407c60d5ef05335dc7a4a66113"
         }
     },
     "bin": "bin\\fstar.exe",
