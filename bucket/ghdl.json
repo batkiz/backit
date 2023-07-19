@@ -1,16 +1,16 @@
 {
-    "version": "0.1.0",
+    "version": "0.1.1",
     "description": "A much more convenient way to download GitHub release binaries on the command line, works on Win & Unix-like systems",
     "homepage": "https://github.com/beetcb/ghdl",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/beetcb/ghdl/releases/download/v0.1.0/ghdl_0.1.0_Windows_x86_64.tar.gz",
-            "hash": "30bdd7e13bb3e9c9d604209dc868bf29418ed8d869e594f5acb08b070451fa99"
+            "url": "https://github.com/beetcb/ghdl/releases/download/v0.1.1/ghdl_0.1.1_Windows_x86_64.tar.gz",
+            "hash": "d70e53819cede3efa1fd3dd0b47160b3a4f0bb89cf01d895a3d42baa498bd922"
         },
         "32bit": {
-            "url": "https://github.com/beetcb/ghdl/releases/download/v0.1.0/ghdl_0.1.0_Windows_i386.tar.gz",
-            "hash": "49ff586f556af12267275205a2198af04f8fdc6036f3cdab7625da10ae9e5def"
+            "url": "https://github.com/beetcb/ghdl/releases/download/v0.1.1/ghdl_0.1.1_Windows_i386.tar.gz",
+            "hash": "a89c24fc3fb253c2800b4f813204bd71774832c6d49e7483b6bb6d40e3042fef"
         }
     },
     "bin": "ghdl.exe",
