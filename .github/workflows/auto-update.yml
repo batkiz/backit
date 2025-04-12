@@ -1,22 +1,21 @@
-name: Auto Update
-
 on:
+  workflow_dispatch:
+  schedule:
+    # run at 00:01:00 everyday (UTC)
+    - cron: '* 0 * * *'
   push:
     branches:
-      - master
-  schedule:
-    - cron: "0 * * * *"
+      - 'master'
 
+name: Excavator
 jobs:
-  deploy:
-    name: Update packages
+  excavate:
+    name: Excavate
     runs-on: windows-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
-      - name: Bucket Updates
-        uses: Ash258/Scoop-GithubActions@stable-win
-        env:
-          GITH_EMAIL: batkiz@outlook.com
-          SKIP_UPDATED: "1"
+    - uses: actions/checkout@v4
+    - name: Excavate
+      uses: ScoopInstaller/GithubActions@main
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        SKIP_UPDATED: '1'
