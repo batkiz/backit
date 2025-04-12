@@ -1,8 +1,7 @@
 on:
   workflow_dispatch:
   schedule:
-    # run at 00:01:00 everyday (UTC)
-    - cron: '* 0 * * *'
+    - cron: '*/30 * * * *'
   push:
     branches:
       - 'master'
@@ -10,12 +9,13 @@ on:
 name: Excavator
 jobs:
   excavate:
-    name: Excavate
+    name: Excavator
     runs-on: windows-latest
     steps:
-    - uses: actions/checkout@v4
-    - name: Excavate
+    - uses: actions/checkout@main
+    - name: Excavator
       uses: ScoopInstaller/GithubActions@main
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         SKIP_UPDATED: '1'
+        THROW_ERROR: '0'
