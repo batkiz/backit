@@ -1,18 +1,18 @@
 {
-    "version": "2.1.0",
+    "version": "2.1.1",
     "description": "Fast linters Runner for Go",
     "homepage": "https://golangci-lint.run/",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/golangci/golangci-lint/releases/download/v2.1.0/golangci-lint-2.1.0-windows-amd64.zip",
-            "extract_dir": "golangci-lint-2.1.0-windows-amd64",
-            "hash": "3320a95c55e157e316c964b850f80c1d6ec2c8a87f4d140f6aaecc3d381faa1d"
+            "url": "https://github.com/golangci/golangci-lint/releases/download/v2.1.1/golangci-lint-2.1.1-windows-amd64.zip",
+            "extract_dir": "golangci-lint-2.1.1-windows-amd64",
+            "hash": "3b755771ce9b7ae22248ece1d84550a90661bccb3acda65c1aa8c226a654d8d8"
         },
         "32bit": {
-            "url": "https://github.com/golangci/golangci-lint/releases/download/v2.1.0/golangci-lint-2.1.0-windows-386.zip",
-            "extract_dir": "golangci-lint-2.1.0-windows-386",
-            "hash": "c4c71de019e0008b2a35a22dd619399e52f397a479b4a4bb8250bb19b88bc06f"
+            "url": "https://github.com/golangci/golangci-lint/releases/download/v2.1.1/golangci-lint-2.1.1-windows-386.zip",
+            "extract_dir": "golangci-lint-2.1.1-windows-386",
+            "hash": "b98bbd2d9b9224c61a29b6ed070afcb5e15cbdb1e978c481ccdcfc30b7c62a77"
         }
     },
     "bin": "golangci-lint.exe",
