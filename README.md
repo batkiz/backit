@@ -15,6 +15,8 @@
 * 自己发现的软件，兴致所至写出的 manifest，暂且未给官方提 PR 的
 * 由于软件本身问题，不适合提交至官方的
 
+注意：本 bucket 的后续所有软件均不再会有 32 位（i386/x86/ia32 等）支持，已有的 32 位信息亦随时可能删除，请有 32 位需求的用户尽早做好应对手段。
+
 如果你在使用过程中遇到了什么问题，欢迎提 issue、发 PR。当然也欢迎给我点个 star 啦（
 
 ## 安装、卸载
@@ -43,6 +45,8 @@ The manifests in this bucket would be as listed below:
 * not satisfied with the update/PR accepted aging
 * wrote by myself, not PRed to official buckets
 * the apps not satisfied with official rules
+
+NOTICE: All software in this bucket will no longer have 32-bit (i386/x86/ia32, etc.) support. Existing 32-bit information may also be deleted at any time. Users who require 32-bit support should take appropriate measures as soon as possible.
 
 Feel free to make a star, issue or pull request.
 
