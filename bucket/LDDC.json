@@ -1,0 +1,27 @@
+{
+    "homepage": "https://github.com/chenmozhijin/LDDC",
+    "description": "简单易用的精准歌词(逐字歌词/卡拉OK歌词)下载匹配工具|A simple and user-friendly tool for downloading and matching precise lyrics (word-by-word lyrics/Karaoke lyrics)",
+    "version": "0.9.2",
+    "license": "GPL-3.0-or-later",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/chenmozhijin/LDDC/releases/download/v0.9.2/LDDC-0.9.2-windows-amd64-onefile.zip",
+            "hash": "9ec8243e268be674507abccebfdd6cb8e793764832a6ac9e97d6322d2311e088"
+        }
+    },
+    "extract_dir": "LDDC",
+    "shortcuts": [
+        [
+            "LDDC.exe",
+            "LDDC"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/chenmozhijin/LDDC/releases/download/v$version/LDDC-$version-windows-amd64-onefile.zip"
+            }
+        }
+    }
+}
