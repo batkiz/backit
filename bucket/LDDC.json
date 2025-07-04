@@ -5,8 +5,8 @@
     "license": "GPL-3.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/chenmozhijin/LDDC/releases/download/v0.9.2/LDDC-0.9.2-windows-amd64-onefile.zip",
-            "hash": "9ec8243e268be674507abccebfdd6cb8e793764832a6ac9e97d6322d2311e088"
+            "url": "https://github.com/chenmozhijin/LDDC/releases/download/v0.9.2/LDDC-0.9.2-windows-amd64.zip",
+            "hash": "2042824d1d496d4ddd61be464461700594639a6cce391991bd8da1ae4a4238a7"
         }
     },
     "extract_dir": "LDDC",
@@ -20,7 +20,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/chenmozhijin/LDDC/releases/download/v$version/LDDC-$version-windows-amd64-onefile.zip"
+                "url": "https://github.com/chenmozhijin/LDDC/releases/download/v$version/LDDC-$version-windows-amd64.zip"
             }
         }
     }
