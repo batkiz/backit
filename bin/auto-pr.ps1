@@ -1,7 +1,7 @@
 #Requires -Version 5.1
 param(
     # overwrite upstream param
-    [String]$upstream = 'chawyehsu/dorado:master'
+    [String]$upstream = 'batkiz/backit:master'
 )
 
 if (!$env:SCOOP_HOME) { $env:SCOOP_HOME = Resolve-Path (scoop prefix scoop) }
