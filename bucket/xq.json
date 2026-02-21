@@ -1,13 +1,13 @@
 {
-    "version": "0.4.3",
+    "version": "0.4.4",
     "homepage": "https://github.com/MiSawa/xq",
     "description": "Pure rust implementation of jq",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/MiSawa/xq/releases/download/v0.4.3/xq-v0.4.3-x86_64-pc-windows-msvc.tar.gz",
-            "hash": "f11899cca2b480e593bdd855db35748322f1cda74f3a64fc1650314498070282",
-            "extract_dir": "xq-v0.4.3-x86_64-pc-windows-msvc"
+            "url": "https://github.com/MiSawa/xq/releases/download/v0.4.4/xq-v0.4.4-x86_64-pc-windows-msvc.tar.gz",
+            "hash": "34a3a610866f0dedc44b655a301ea4e209afa742eb4ef86109636b5fc9cf3dbd",
+            "extract_dir": "xq-v0.4.4-x86_64-pc-windows-msvc"
         }
     },
     "bin": "xq.exe",
