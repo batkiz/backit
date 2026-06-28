@@ -1,27 +1,30 @@
 {
-    "version": "0.3.0",
-    "description": "scoop-completion, with PSReadlineKeyHandler.",
-    "homepage": "https://github.com/Moeologist/scoop-completion",
+    "version": "0.4.0",
+    "description": "A Scoop tab completion module for PowerShell.",
+    "homepage": "https://github.com/batkiz/scoop-completion",
     "license": {
         "identifier": "MIT",
-        "url": "https://github.com/Moeologist/scoop-completion/blob/master/LICENSE"
+        "url": "https://github.com/batkiz/scoop-completion/blob/master/LICENSE"
     },
     "url": [
-        "https://raw.githubusercontent.com/Moeologist/scoop-completion/v0.3.0/src/scoop-completion.psm1",
-        "https://raw.githubusercontent.com/Moeologist/scoop-completion/v0.2.1/src/scoop-completion.psd1"
+        "https://raw.githubusercontent.com/batkiz/scoop-completion/v0.4.0/src/scoop-completion.psm1",
+        "https://raw.githubusercontent.com/batkiz/scoop-completion/v0.4.0/src/scoop-completion.psd1"
     ],
     "hash": [
-        "c0e8455b88bb30ddc93f50c5a9ad2add97abb3de58fb44a5138e0327047681f4",
-        "4734b144349914e667f481967599be334844714ca1466f237e9922bfd202d202"
+        "3d41d65f4f44b430a7923f31a1a22920bc0fc6107d710a448d4dca0faf31619d",
+        "7e109eebd7ae1c24fe121e0e3df9c824fd6eb0ad2d3aed9879d2e844a98624ac"
     ],
     "psmodule": {
         "name": "scoop-completion"
     },
     "checkver": {
-        "url": "https://raw.githubusercontent.com/Moeologist/scoop-completion/master/src/scoop-completion.psd1",
+        "url": "https://raw.githubusercontent.com/batkiz/scoop-completion/master/src/scoop-completion.psd1",
         "regex": "ModuleVersion\\s+=\\s+'([\\d.]+)'"
     },
     "autoupdate": {
-        "url": "https://raw.githubusercontent.com/Moeologist/scoop-completion/v$version/src/scoop-completion.psm1"
+        "url": [
+            "https://raw.githubusercontent.com/batkiz/scoop-completion/v$version/src/scoop-completion.psm1",
+            "https://raw.githubusercontent.com/batkiz/scoop-completion/v$version/src/scoop-completion.psd1"
+        ]
     }
 }
