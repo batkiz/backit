@@ -1,12 +1,12 @@
 {
-    "version": "0.7.0",
+    "version": "0.7.1",
     "license": "MIT",
     "homepage": "https://github.com/batkiz/scoop-search",
     "description": "Fast local Scoop search with spelling correction and fuzzy matching",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/batkiz/scoop-search/releases/download/v0.7.0/scoop-search.exe",
-            "hash": "e54fb8f40f105d5d126292482e26b6f235de03a187681816c78ee2ba35d99263"
+            "url": "https://github.com/batkiz/scoop-search/releases/download/v0.7.1/scoop-search.exe",
+            "hash": "422dfee5770c4f247c97a1ae7ba4bf66780a68c7397df258ea0fdf2334168f42"
         }
     },
     "bin": "scoop-search.exe",
