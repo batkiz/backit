@@ -33,6 +33,33 @@ scoop bucket add backit https://github.com/batkiz/backit
 scoop bucket rm backit
 ```
 
+## 已移至官方 bucket
+
+以下 manifest 已于 2026-10-11 从本仓库移除，后续请使用对应的官方替代项。
+
+| 原 backit manifest | 官方替代项 |
+| --- | --- |
+| `delta` | `main/delta` |
+| `dotter` | `main/dotter` |
+| `ffsend` | `main/ffsend` |
+| `buildkit` | `main/buildkit` |
+| `gojq` | `main/gojq` |
+| `less-windows` | `main/less` |
+| `llvm` | `main/llvm`；ARM64 使用 `main/llvm-arm64` |
+| `motrix` | `extras/motrix` |
+| `artcraft` | `extras/artcraft` |
+| `designcraft` | `extras/designcraft` |
+| `effectcraft` | `extras/effectcraft` |
+| `filmcraft` | `extras/filmcraft` |
+| `lightcraft` | `extras/lightcraft` |
+| `photocraft` | `extras/photocraft` |
+| `vectorcraft` | `extras/vectorcraft` |
+| `printcraft` | `extras/pdfcraft` |
+| `rebased` | `extras/rebased` |
+| `miniconda3` | `extras/miniconda3` |
+
+移除 manifest 不会自动把已有安装切换到官方 bucket。迁移时请保留已有数据和配置：Rebased 的配置目录、Miniconda 的环境持久化方式有所变化；Craft 系列的官方 manifest 通常只为 CLI 创建 shim，GUI 通过快捷方式启动；LLVM 使用 PATH 提供命令。
+
 # About
 
 This is a [scoop](https://github.com/lukesampson/scoop) bucket, _backit_ is a transformation of _bucket_.
@@ -63,3 +90,9 @@ remove this bucket:
 ```powershell
 scoop bucket rm backit
 ```
+
+## Moved to official buckets
+
+The manifests listed in the [replacement table above](#已移至官方-bucket) were removed from backit on 2026-10-11. Use the corresponding manifests from Main or Extras for future updates.
+
+Removing a manifest does not automatically switch an existing installation to the official bucket. Preserve data and configuration when migrating: Rebased uses different configuration paths, and Miniconda persists environments differently. Official Craft manifests generally expose CLI shims and GUI shortcuts; LLVM exposes commands through PATH.
