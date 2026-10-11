@@ -35,7 +35,7 @@ scoop bucket rm backit
 
 ## 已移至官方 bucket
 
-以下 manifest 已于 2026-10-11 从本仓库移除，后续请使用对应的官方替代项。
+以下 manifest 已从本仓库移除（2026-10-11 首批，2026-10-12 补充 LINQPad），后续请使用对应的官方替代项。
 
 | 原 backit manifest | 官方替代项 |
 | --- | --- |
@@ -57,8 +57,13 @@ scoop bucket rm backit
 | `printcraft` | `extras/pdfcraft` |
 | `rebased` | `extras/rebased` |
 | `miniconda3` | `extras/miniconda3` |
+| `linqpad` | `extras/linqpad` |
 
 移除 manifest 不会自动把已有安装切换到官方 bucket。迁移时请保留已有数据和配置：Rebased 的配置目录、Miniconda 的环境持久化方式有所变化；Craft 系列的官方 manifest 通常只为 CLI 创建 shim，GUI 通过快捷方式启动；LLVM 使用 PATH 提供命令。
+
+## 已停止维护且官方下载失效
+
+`downkyicore` 和 `aegisubdc` 的上游已停止维护并删除发布附件，当前 manifest 的官方链接无法用于新安装。这两个 manifest 已移至 `deprecated/`，仅供历史记录参考，不再作为本 bucket 的可安装软件提供。AegisubDC 上游建议改用 arch1t3cht/Aegisub，对应官方 bucket 的 `extras/aegisub-arch1t3cht`。
 
 # About
 
@@ -93,6 +98,10 @@ scoop bucket rm backit
 
 ## Moved to official buckets
 
-The manifests listed in the [replacement table above](#已移至官方-bucket) were removed from backit on 2026-10-11. Use the corresponding manifests from Main or Extras for future updates.
+The manifests listed in the [replacement table above](#已移至官方-bucket) were removed from backit on 2026-10-11, with LINQPad added on 2026-10-12. Use the corresponding manifests from Main or Extras for future updates.
 
 Removing a manifest does not automatically switch an existing installation to the official bucket. Preserve data and configuration when migrating: Rebased uses different configuration paths, and Miniconda persists environments differently. Official Craft manifests generally expose CLI shims and GUI shortcuts; LLVM exposes commands through PATH.
+
+## Discontinued apps with unavailable downloads
+
+The upstream projects for `downkyicore` and `aegisubdc` have ended maintenance and removed their release assets. Their official download URLs cannot be used for new installations. These manifests have been moved to `deprecated/` for historical reference and are no longer offered as installable apps in this bucket. AegisubDC upstream recommends arch1t3cht/Aegisub, available as `extras/aegisub-arch1t3cht`.
