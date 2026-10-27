@@ -1,16 +1,16 @@
 {
-    "version": "0.1.13",
+    "version": "0.1.19",
     "description": "A native third-party NetEase Cloud Music desktop client built with Go and MyGo.",
     "homepage": "https://music.egoist.dev/",
     "license": "AGPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/egoist/mygo-cloudmusic/releases/download/v0.1.13/mygo-cloudmusic-0.1.13-windows-amd64.tar.gz",
-            "hash": "ec2312484671c14a83913a8d1544b7685113812c90a0eb0b8f6f397b034ce679"
+            "url": "https://github.com/egoist/mygo-cloudmusic/releases/download/v0.1.19/mygo-cloudmusic-0.1.19-windows-amd64.tar.gz",
+            "hash": "fa8116bd081befa425523a59c17d33a0b84525af26ddab1c1223a2d7cb5bcad0"
         },
         "arm64": {
-            "url": "https://github.com/egoist/mygo-cloudmusic/releases/download/v0.1.13/mygo-cloudmusic-0.1.13-windows-arm64.tar.gz",
-            "hash": "94a72c336849d63a08fdd8b9302c44f410518d110824cb999816b53e657d9b74"
+            "url": "https://github.com/egoist/mygo-cloudmusic/releases/download/v0.1.19/mygo-cloudmusic-0.1.19-windows-arm64.tar.gz",
+            "hash": "090702295d5a0049e09b2c4beaff414d41ca9ae5d1892b5b9a1caccd51844918"
         }
     },
     "shortcuts": [
