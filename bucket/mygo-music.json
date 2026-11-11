@@ -1,5 +1,5 @@
 {
-    "version": "0.1.22",
+    "version": "0.1.23",
     "description": "A native desktop music player with local playback and plugin support, built with Go and MyGo.",
     "homepage": "https://github.com/egoist/mygo-music",
     "license": "AGPL-3.0-only",
@@ -10,12 +10,12 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://github.com/egoist/mygo-music/releases/download/v0.1.22/mygo-music-0.1.22-windows-amd64.tar.gz",
-            "hash": "240e602f10d68e684500d5203c5483ef75ba0c38feb3234e341fdff292ce0061"
+            "url": "https://github.com/egoist/mygo-music/releases/download/v0.1.23/mygo-music-0.1.23-windows-amd64.tar.gz",
+            "hash": "7e3dc1c72b0b1796d197143e8148b9f454783e074edbf3eaf17c0393d19f6cda"
         },
         "arm64": {
-            "url": "https://github.com/egoist/mygo-music/releases/download/v0.1.22/mygo-music-0.1.22-windows-arm64.tar.gz",
-            "hash": "63fad91be83e5b491b75be7b188b26383f41013a2c4a458750cbd7604ee60ded"
+            "url": "https://github.com/egoist/mygo-music/releases/download/v0.1.23/mygo-music-0.1.23-windows-arm64.tar.gz",
+            "hash": "0600846c6bfd255d87763b7197e628124ad1d88813b19b6ced232f7579c3d404"
         }
     },
     "shortcuts": [
