@@ -1,0 +1,36 @@
+{
+    "version": "0.4.11",
+    "description": "Connect local coding agents to chat apps including WeChat, Slack, Discord, and Telegram.",
+    "homepage": "https://github.com/earayu/Mingle",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/earayu/Mingle/releases/download/v0.4.11/mingle-0.4.11-windows-amd64.tar.gz",
+            "hash": "71f898931bba425920b6abb31d87a500552c654e46e4381f62f410b6c7b97d7c"
+        },
+        "arm64": {
+            "url": "https://github.com/earayu/Mingle/releases/download/v0.4.11/mingle-0.4.11-windows-arm64.tar.gz",
+            "hash": "65aba504f22225a6c4b1a1ec07b5c60302f97d4406ad8a48e0df276d678a843d"
+        }
+    },
+    "shortcuts": [
+        [
+            "Mingle.exe",
+            "Mingle"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/earayu/Mingle/releases/download/v$version/mingle-$version-windows-amd64.tar.gz"
+            },
+            "arm64": {
+                "url": "https://github.com/earayu/Mingle/releases/download/v$version/mingle-$version-windows-arm64.tar.gz"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/SHA256SUMS"
+        }
+    }
+}
